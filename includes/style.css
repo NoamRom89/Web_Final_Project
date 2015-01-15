@@ -162,6 +162,41 @@ main{
 #slideshow{
     position: absolute;
     top: 45px;
+    height: 269px;
+    width: 531px;
+    border: 2px solid #87746a;
+    border-radius: 5px;
+}
+#slideshowinner{
+	height: 265px;
+    width: 527px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+   
+
+}
+#slideshowtext{
+	width:186px;
+	background-color:#87746A;
+	direction:rtl;
+	float:left;
+}
+#h1slideshow{
+		font-family: ariel,Verdana,sans-serif;
+    	color: #ffffff;
+    	font-size:19px;
+		padding:17px 21px 0 21px;		
+	}
+#slideshowtext>p{
+		font-family: ariel,Verdana,sans-serif;
+    	color: #ffffff;
+    	font-size:12px;	
+		padding:16px 21px 21px 20px;	
+
+}
+#slideshowimg{
+	width:341px;
+	 float:left;
 }
 
 #bigArticle{
