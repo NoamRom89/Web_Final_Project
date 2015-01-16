@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="includes/style.css">
 </head>
 <body>
-<div id="vaccumWrapper">
+<div id="recipesWrapper">
     <header>
         <a href="index.html" id="logo"></a>
     </header>
@@ -37,7 +37,7 @@
             <article id="recipeAarticleStyle">
                 <p id="recipeAarticleStylePara">
                     <span id="bold">מתכון חדש ומומלץ ביותר!</span>
-                    <span id="orange">"שאט וודקה ואבטיח" </span>ב"מתכונים לתרמומיקס". כמה פשוט ככה טעים. וגם מרענן! יש לנו גם מתכוני גולשים חדשים ומרגשים, וכולם מאוד פשוטים להכנה. תודה לכל מי ששלח לנו מתכון, המשיכו לשלוח לנו ולמלא לנו את מלאי המתכונים ואת הלב.
+                    <span class="orange">"שאט וודקה ואבטיח" </span>ב"מתכונים לתרמומיקס". כמה פשוט ככה טעים. וגם מרענן! יש לנו גם מתכוני גולשים חדשים ומרגשים, וכולם מאוד פשוטים להכנה. תודה לכל מי ששלח לנו מתכון, המשיכו לשלוח לנו ולמלא לנו את מלאי המתכונים ואת הלב.
                 </p>
                 <section id="picRecipe">
                     <img src="images/termomiksRecipe.jpg">
@@ -45,24 +45,33 @@
                     <img src="images/slidersRecipe.jpg">
                 </section>
                 <div class="clear"></div>
+                <section id="h3recipetitle">
+                    <h3 class="h3RecipeTitle">מתכונים לתרמומיקס</h3>
+                    <h3 class="h3RecipeTitle">מתכונים לפיין-קוקר</h3>
+                    <h3 class="h3RecipeTitle">מתכוני גולשים</h3>
+                </section>
+                <div class="clear"></div>
             </article>
         </section>
     </main>
 
-
-
-    <aside id="contentAside">
+    <aside id="recipeAside">
         <section id="asideSearch">
             <form>
                 <input type="search" id="search" placeholder="חפש" />
             </form>
         </section>
-        <nav id="asideNavTopContent">
+        <nav id="asideNavTopContentRecipe">
             <ul>
                 <li>מאמרי מערכת</li>
                 <li><a href="#">סדנאות ואירועים</a></li>
                 <li><a href="#">מוצרים</a></li>
-                <li><a href="#">מתכונים</a></li>
+                <li><a href="recipes.html" class="orange">מתכונים</a></li>
+            </ul>
+            <ul id="ulLastChild">
+                <li>מתכונים לתרמומיקס</li>
+                <li>מתכונים לפיין-קוקר</li>
+                <li>מתכוני גולשים</li>
             </ul>
         </nav>
         <nav id="asideNavCenter">
@@ -81,7 +90,7 @@
             </ul>
         </nav>
     </aside>
-    <footer id="contentfooterVaccum">
+    <footer id="contentfooterRecipes">
         <section id="footerSection">
             <section id="footerSharing">
                 <img src="images/facebooklogo.png" class="footerSharingImg paddingleft" >
