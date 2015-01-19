@@ -52,6 +52,12 @@ header,main,footer,aside,nav,article,section{
     width:960px;
     margin: 0 auto;
 }
+#contactFormWrapper{
+    position: relative;
+    height: 718px;
+    width:960px;
+    margin: 0 auto;
+}
 /*******************************************************************/
 
 /*header style*/
@@ -128,6 +134,30 @@ header{
 #greenArrowImg{
     margin-top: 3px;
 }
+/*** Conatct form nav ***/
+#contactNav{
+    direction: rtl;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+#contactNav a:link,#contactNav a:visited{
+    color:#87746a;
+    text-decoration: none;
+}
+#contactNav ul{
+    list-style-type: none;
+}
+#contactNav ul li{
+    font-size: 11px;
+    float: right;
+    margin:1px;
+    margin-left: 2px;
+    font-family: ariel,Verdana,sans-serif;
+}
+.mainNavLastLiConatct a:link,.mainNavLastLi a:visited{
+    color: #ffae3b !important;
+}
 /*-------------------------------------------*/
 
 /*****          Main style          *****/
@@ -155,6 +185,10 @@ main{
 #contentMainFienCook{
     width: 573px;
     height: 801px;
+}
+#contentMainContactForm{
+    width: 573px;
+    height: 508px;
 }
 
 #tickerText{
@@ -937,14 +971,14 @@ aside{
     position: absolute;
     top: 29px;
     right: 30px;
-    width: 532px;
+    width: 544px;
     height: 704px;
     border-top: 2px solid #87746a;
     border-bottom: 2px solid #e7e3e1;
 }
 #fiencookArticle h1{
     position: absolute;
-    top: 26px;
+    top: 12px;
     right: 15px;
     direction: rtl;
     font-size: 19px;
@@ -956,7 +990,7 @@ aside{
     width: 496px;
     height: 54px;
     position: absolute;
-    top: 55px;
+    top: 42px;
     right: 15px;
     direction: rtl;
     font-size: 12.5px;
@@ -968,7 +1002,7 @@ aside{
     width: 532px;
     height: 377px;
     position: absolute;
-    top: 105px;
+    top: 99px;
     right: 15px;
 }
 #fiencookArticleSlideshow ul{
@@ -1018,6 +1052,58 @@ aside{
 }
 #fiencookArticleParaFirst{
     margin-top: 19px !important;
+}
+
+/*********************************************************************************/
+
+/******         Conatct Form Page style     ******/
+#conatactFormAarticleStyle{
+    position: absolute;
+    top: 29px;
+    right: 30px;
+    width: 544px;
+    height: 412px;
+    border-top: 2px solid #87746a;
+    border-bottom: 2px solid #e7e3e1;
+}
+#contactFormAarticleStyle{
+    width: 544px;
+    height: 390px;
+    position: absolute;
+    top: 22px;
+}
+#contactFormAarticleStyle h2{
+    position: absolute;
+    top: 19px;
+    right: 13px;
+    color: #87746a;
+    direction: rtl;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: ariel,Verdana,sans-serif;
+}
+#contactFormAarticleStyle form{
+    position: absolute;
+    top: 59px;
+    right: 0px;
+    width: 253px;
+    height: 329px;
+}
+#contactFormAarticleStyle label{
+    position: absolute;
+
+}
+#asideContactForm{
+    position: absolute;
+    left: 689px;
+    top: 108px;
+    width: 160px;
+    height: 480px;
+    border-top: 1px dotted #c3b9b4;
+    padding-left: 3px;
+    padding-right: 6px;
+    margin-left: 1px;
+
 }
 
 /*********************************************************************************/
@@ -1292,6 +1378,9 @@ footer{
 }
 #contentfooterFienCook{
     top: 948px;
+}
+#contentfooterContactForm{
+    top: 655px;
 }
 #footerSection{
     position:relative;
