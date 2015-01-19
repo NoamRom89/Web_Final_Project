@@ -14,6 +14,8 @@
 header,main,footer,aside,nav,article,section{
     display: block;
 }
+
+/*****          Wrappers            *****/
 #wrapper{
     position: relative;
     height: 1719px;
@@ -44,6 +46,14 @@ header,main,footer,aside,nav,article,section{
     width:960px;
     margin: 0 auto;
 }
+#fiencookWrapper{
+    position: relative;
+    height: 1013px;
+    width:960px;
+    margin: 0 auto;
+}
+/*******************************************************************/
+
 /*header style*/
 header{
     background-color: #ffffff;
@@ -61,7 +71,7 @@ header{
 }
 /*-------------------------------------------*/
 
-/*top Nav style*/
+/*****          Top Nav style           *****/
 #topNav{
     direction:rtl;
     position: absolute;
@@ -91,7 +101,7 @@ header{
 }
 
 /*-------------------------------------------*/
-/*Nav of main style*/
+/*****          Nav of main style           *****/
 #mainNav{
     direction: rtl;
     position: absolute;
@@ -114,27 +124,13 @@ header{
 }
 .mainNavLastLi a:link,.mainNavLastLi a:visited{
     color: #1fb25a !important;
-    font-weight: bold !important;
-}
-/** Vaccum Page **/
-.mainNavLastLiNotBold a:link, .mainNavLastLiNotBold a:visited{
-    color: #1fb25a !important;
-    margin-right: 4px;
 }
 #greenArrowImg{
-    margin-left: -4px;
     margin-top: 3px;
 }
-/** Vaccum Page **/
-.brownArrowImg{
-    margin-top: 3px;
-}
-
-
-
 /*-------------------------------------------*/
 
-/*main style*/
+/*****          Main style          *****/
 main{
     position: absolute;
     left: 116px;
@@ -156,6 +152,10 @@ main{
     width: 573px;
     height: 461px;
 }
+#contentMainFienCook{
+    width: 573px;
+    height: 801px;
+}
 
 #tickerText{
     direction: rtl;
@@ -170,26 +170,22 @@ main{
     text-align: center;
     font-size: 13px;
 }
-
 #slideshow{
     position: absolute;
     top: 45px;
 }
-
 #bigArticle{
     position: absolute;
     top: 340px;
     width:307px;
 
 }
-
 #youtube{
     padding: 1px,0px,0px,1px;
     width:307px;
     height:186px;
     margin-top: 16px;
 }
-
 #articleBigPic{
     direction:rtl;
     margin-top: 16px;
@@ -355,9 +351,6 @@ main{
     padding-bottom:5px;
     width: 114px;
     border-bottom: 1px solid #d2cbc7;
-    /*padding-right: 10px;
-    content: "• ";
-    color: #f26631;*/
 }
 #currentArticleGreen{
     color: #00b25a;
@@ -513,7 +506,6 @@ aside{
     margin-left: 1px;
 
 }
-
 #contentAside{
     position: absolute;
     left: 689px;
@@ -525,7 +517,6 @@ aside{
     padding-right: 6px;
     margin-left: 1px;
 }
-
 #asideSearch{
     height: 48px;
     width: 150px;
@@ -667,101 +658,27 @@ aside{
     color: #87746a;
 }
 /*-------------------------------------------*/
-
-
-
-/*footer style*/
-footer{
+/*****          FienCook aside style            *****/
+#asideFiencook{
     position: absolute;
-    top: 1647px;
-    width: 960px;
-    height: 72px;
-    background-color: #87746a;
-    padding-right: 30px;
-    padding-left: 30px;
-}
-#contentFooter{
-    top: 646px;
-}
-
-#contentfooterRecipes{
-    top: 603px;
-}
-#contentfooterVaccum{
-    top: 754px;
-}
-#contentfooterVodkaWatermellon{
-    top: 1185px;
-}
-#footerSection{
-    position:relative;
-    height:17px;
-    padding-top:14px;
-    padding-bottom:5px;
-    border-bottom: 1px solid #9f9088
-}
-#footerSharing{
-    position:absolute;
-    right:0px;
-    width:500px;
-    height:17px;
-    border-left: 1px solid #43332c
-}
-.footerSharingImg{
-    padding-right:3px;
-}
-.paddingleft{
-    padding-left:11px;
-}
-#footerCopyrights{
-    direction:rtl;
-    position:absolute;
-    right:511px;
-    font-size: 13px;
-    font-family: ariel,Verdana,sans-serif;
-    color:#473a33;
-}
-
-#footerNav{
-
-    height:35px;
-    font-family: ariel,Verdana,sans-serif;
-    color: #ffffff;
-    font-size: 13px;
-    margin-left: 180px;
+    left: 689px;
+    top: 108px;
+    width: 160px;
+    height: 839px;
+    border-top: 1px dotted #c3b9b4;
+    padding-left: 3px;
+    padding-right: 6px;
+    margin-left: 1px;
 
 }
-
-#footerNav a:link,#footerNav a:visited{
-    color:#ffffff;
-    text-decoration: none;
-}
-#footerNav ul{
-    list-style-type: none;
-    margin-top: 6px;
-
-}
-#footerNav ul li{
-    padding-top:3px;
-    padding-bottom:3px;
-    float: left;
-
-}
-.footerNavLine{
-    padding-right:8px;
-    padding-left:8px;
-}
-
 /*-------------------------------------------*/
-
-/*Content article style*/
+/*****          Content article style           *****/
 #contentArticle{
     position: absolute;
     top: 29px;
     right: 30px;
     width: 544px;
     border-top: 2px solid #87746a;
-
 }
 #articleHeader{
     direction: rtl;
@@ -775,7 +692,7 @@ footer{
     font-size: 13px;
     font-weight: bold;
 }
-/*******        Vaccum page Article         *******/
+/*******        Vaccum article style         *******/
 #vaccumAarticleStyle{
     width: 544px;
     height: 430px;
@@ -899,9 +816,16 @@ footer{
     color: #87746a;
     text-decoration: none
 }
+.mainNavLastLiNotBold a:link, .mainNavLastLiNotBold a:visited{
+    color: #1fb25a !important;
+    margin-right: 4px;
+}
+.brownArrowImg{
+    margin-top: 3px;
+}
 /*******************************************************************************/
 
-/*****      Recipes Page    ********/
+/******         Recipes Page Style         ********/
 
 .orangeRecipesLogo{
     color: #f26631 !important;
@@ -969,7 +893,96 @@ footer{
 }
 
 /*********************************************************************************/
+/*****      Fien Cook Page    ********/
 
+#fiencookArticle{
+    position: absolute;
+    top: 29px;
+    right: 30px;
+    width: 532px;
+    height: 704px;
+    border-top: 2px solid #87746a;
+    border-bottom: 2px solid #e7e3e1;
+}
+#fiencookArticle h1{
+    position: absolute;
+    top: 26px;
+    right: 15px;
+    direction: rtl;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: ariel,Verdana,sans-serif;
+    color: #1fb25a;
+}
+#fiencookArticleFirstSection{
+    width: 496px;
+    height: 54px;
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    direction: rtl;
+    font-size: 12.5px;
+    font-weight: bold;
+    font-family: ariel,Verdana,sans-serif;
+    color: #87746a;
+}
+#fiencookArticleSlideshow{
+    width: 532px;
+    height: 377px;
+    position: absolute;
+    top: 105px;
+    right: 15px;
+}
+#fiencookArticleSlideshow ul{
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    height: 20px;
+    width: 517px;
+    list-style-type: none;
+}
+#fiencookArticleSlideshow ul li{
+    float: right;
+    direction: rtl;
+    color: #87746a;
+    font-size: 12.5px;
+    font-family: ariel,Verdana,sans-serif;
+    margin-left: 16px;
+}
+#fiencookArticleSlideshowImg{
+    position: absolute;
+    top: 35px;
+    left: 29px;
+}
+#fiencookArticleSlideshow p{
+    position: absolute;
+    top: 361px;
+    left: 326px;
+    width: 206px;
+    direction: rtl;
+    color: #87746a;
+    font-size: 12.5px;
+    font-family: ariel,Verdana,sans-serif;
+}
+#fiencookArticlePara{
+    position: absolute;
+    height: 238px;
+    width: 503px;
+    top: 472px;
+    left: 14px;
+}
+#fiencookArticlePara p{
+    direction: rtl;
+    color: #87746a;
+    font-size: 12.5px;
+    font-family: ariel,Verdana,sans-serif;
+    margin-top: 15px;
+}
+#fiencookArticleParaFirst{
+    margin-top: 19px !important;
+}
+
+/*********************************************************************************/
 /*****      Vodka Watermellon Page    ********/
 
 #vodkaWMAarticleStyle{
@@ -1145,8 +1158,6 @@ footer{
     top: 20px;
     right: 6px;
 }
-
-/*************/
 #articleContentStyle2 {
     width: 524px;
     height: 124px;
@@ -1218,7 +1229,90 @@ footer{
     right: 496px;
     bottom: 0px;
 }
+/*****          Footer style            *****/
+footer{
+    position: absolute;
+    top: 1647px;
+    width: 960px;
+    height: 72px;
+    background-color: #87746a;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#contentFooter{
+    top: 646px;
+}
 
+#contentfooterRecipes{
+    top: 603px;
+}
+#contentfooterVaccum{
+    top: 754px;
+}
+#contentfooterVodkaWatermellon{
+    top: 1185px;
+}
+#contentfooterFienCook{
+    top: 948px;
+}
+#footerSection{
+    position:relative;
+    height:17px;
+    padding-top:14px;
+    padding-bottom:5px;
+    border-bottom: 1px solid #9f9088
+}
+#footerSharing{
+    position:absolute;
+    right:0px;
+    width:500px;
+    height:17px;
+    border-left: 1px solid #43332c
+}
+.footerSharingImg{
+    padding-right:3px;
+}
+.paddingleft{
+    padding-left:11px;
+}
+#footerCopyrights{
+    direction:rtl;
+    position:absolute;
+    right:511px;
+    font-size: 13px;
+    font-family: ariel,Verdana,sans-serif;
+    color:#473a33;
+}
+
+#footerNav{
+
+    height:35px;
+    font-family: ariel,Verdana,sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    margin-left: 180px;
+
+}
+
+#footerNav a:link,#footerNav a:visited{
+    color:#ffffff;
+    text-decoration: none;
+}
+#footerNav ul{
+    list-style-type: none;
+    margin-top: 6px;
+
+}
+#footerNav ul li{
+    padding-top:3px;
+    padding-bottom:3px;
+    float: left;
+
+}
+.footerNavLine{
+    padding-right:8px;
+    padding-left:8px;
+}
 
 /*-------------------------------------------*/
 .arrow{
