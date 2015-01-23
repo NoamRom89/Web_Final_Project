@@ -94,6 +94,12 @@ header{
     color:#87746a;
     text-decoration: none;
 }
+#topNav a:hover{
+    color:#1fb25a;
+}
+#topNav a:active{
+    color:#42ca44;
+}
 #topNav ul{
     list-style-type: none;
     margin-top: 13px;
@@ -103,8 +109,11 @@ header{
     padding: 3px 8px 3px 8px;
     float: left;
     border-left: 1px dotted #c3b9b4;
-
 }
+#orangeLi{
+    color: #ffae3b !important;
+}
+
 
 /*-------------------------------------------*/
 /*****          Nav of main style           *****/
@@ -117,6 +126,12 @@ header{
 #mainNav a:link,#mainNav a:visited{
     color:#87746a;
     text-decoration: none;
+}
+#mainNav a:hover{
+    color: #1fb25a;
+}
+#orangeHover a:hover{
+    color: #f26631;
 }
 #mainNav ul{
     list-style-type: none;
@@ -155,7 +170,7 @@ header{
     margin-left: 2px;
     font-family: ariel,Verdana,sans-serif;
 }
-.mainNavLastLiConatct a:link,.mainNavLastLi a:visited{
+#contactNav ul li:last-child  a:link,#contactNav ul li:last-child  a:visited{
     color: #ffae3b !important;
 }
 /*-------------------------------------------*/
@@ -302,6 +317,16 @@ main{
     padding-bottom:14px;
     margin-right:198px;
 }
+.articleLink a:link , .articleLink a:visited{
+    color:#87746a;
+    text-decoration: none;
+}
+.articleLink a:hover{
+    color:#f26631;
+}
+.al1 a:hover{
+    color: #1fb25a;
+}
 .systemArticle,#simpleRecipe,#contentWorld{
     direction:rtl;
 }
@@ -410,7 +435,7 @@ main{
     direction: rtl;
     font-family: ariel,Verdana,sans-serif;
     color: #87746a;
-    margin-right: 10px;
+    margin-right: -7px;
     font-size: 13px;
 }
 #asideNavCenter1> ul {
@@ -421,11 +446,19 @@ main{
     margin-left: 1px;
     list-style-type: none;
     padding-bottom:5px;
-    width: 114px;
+    width: 127px;
     border-bottom: 1px solid #d2cbc7;
 }
-#currentArticleGreen{
-    color: #00b25a;
+#asideNavCenter1 a:link, #asideNavCenter1 a:visited{
+    color: #87746a;
+    text-decoration: none;
+}
+#asideNavCenter1 li:before{
+    content: "• ";
+    color: #87746a;
+}
+.currentArticleGreen a:link,.currentArticleGreen a:visited {
+    color: #00b25a !important;
     font-weight: bold;
 }
 #asideNavCenter{
@@ -441,6 +474,9 @@ main{
 #asideNavCenter a:link,#asideNavCenter a:visited{
     color:#87746a;
     text-decoration: none;
+}
+#asideNavCenter a:hover{
+    color: #1fb25a;
 }
 #asideNavCenter ul {
     list-style-type: none;
@@ -496,14 +532,23 @@ main{
     content: "• ";
     color: #42ca44;
 }
+#asideNavBottom1 a:hover{
+    color: #1fb25a;
+}
 #asideNavBottom2:before{
     padding-right: 10px;
     content: "• ";
     color: #f26631;
 }
+#asideNavBottom2 a:hover{
+    color: #f26631;
+}
 #asideNavBottom3:before{
     padding-right: 10px;
     content: "• ";
+    color: #ffc848;
+}
+#asideNavBottom3 a:hover{
     color: #ffc848;
 }
 
@@ -626,6 +671,9 @@ aside{
 #asideNavTop a:link,#asideNavTop a:visited,#asideNavTopContent a:link, #asideNavTopContent a:visited{
     color:#87746a;
     text-decoration: none;
+}
+#asideNavTop a:hover ,#asideNavTopContent a:hover{
+    color: #1fb25a;
 }
 #asideNavTop > ul{
     list-style-type: none;
@@ -750,6 +798,7 @@ aside{
     top: 29px;
     right: 30px;
     width: 544px;
+    height: 468px;
     border-top: 2px solid #87746a;
 }
 #articleHeader{
@@ -884,9 +933,15 @@ aside{
     color: #87746a;
     text-decoration: none
 }
+#vaccumAarticleStyleNextBeforeArticleBefore a:hover{
+    color: #1fb25a;
+}
 #vaccumAarticleStyleNextBeforeArticleAfter a:link, #vaccumAarticleStyleNextBeforeArticleAfter a:visited{
     color: #87746a;
     text-decoration: none
+}
+#vaccumAarticleStyleNextBeforeArticleAfter a:hover{
+    color: #1fb25a;
 }
 .mainNavLastLiNotBold a:link, .mainNavLastLiNotBold a:visited{
     color: #1fb25a !important;
@@ -1039,9 +1094,9 @@ aside{
 #fiencookArticlePara{
     position: absolute;
     height: 238px;
-    width: 503px;
+    width: 495px;
     top: 472px;
-    left: 14px;
+    left: 35px;
 }
 #fiencookArticlePara p{
     direction: rtl;
@@ -1084,14 +1139,55 @@ aside{
 }
 #contactFormAarticleStyle form{
     position: absolute;
-    top: 59px;
+    top: 46px;
     right: 0px;
     width: 253px;
     height: 329px;
 }
-#contactFormAarticleStyle label{
+#contactFormAarticleStyle p{
+    color: #87746a;
+    direction: rtl;
+    font-size: 12.5px;
+    font-family: ariel,Verdana,sans-serif;
+    padding-right: 13px;
+    margin-top: 9px;
+}
+#formMsgField{
+    width: 253px;
+    height: 66px !important;
+    direction: rtl;
+    height: 21px;
+    font-family: ariel,Verdana,sans-serif;
+    color: #87746a;
+    font-size: 13px;
+    background-color: #edeae9;
+    border: 0px;
+    margin-top: 2px;
+}
+.formField{
+    width: 253px;
+    direction: rtl;
+    height: 21px;
+    font-family: ariel,Verdana,sans-serif;
+    color: #87746a;
+    font-size: 13px;
+    background-color: #edeae9;
+    border: 0px;
+    margin-top: 2px;
+}
+#CKstyle{
     position: absolute;
-
+    top: 297px;
+    right: -2px;
+}
+#submitForm{
+    position: absolute;
+    top:292px;
+    width: 50px;
+    height: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #87746a;
 }
 #asideContactForm{
     position: absolute;
@@ -1304,7 +1400,7 @@ aside{
     top: 10px;
 }
 #articleContentStyle3 {
-    width: 532px;
+    width: 524px;
     height: 124px;
     position: absolute;
     top: 259px;
@@ -1315,7 +1411,7 @@ aside{
 }
 #articleContentStyle3 p {
     position: absolute;
-    right: 133px;
+    right: 125px;
     top: 15px;
     direction: rtl;
     font-family: ariel,Verdana,sans-serif;
@@ -1325,8 +1421,8 @@ aside{
 }
 #articleContentStyle3Img{
     position: absolute;
-    right: 14px;
-    top: 11px;
+    right: 6px;
+    top: 10px;
 }
 .pGreen{
     color: #1fb25a !important;
@@ -1347,6 +1443,9 @@ aside{
 .nextArticle a:link,.nextArticle a:visited{
     color: #87746a;
     text-decoration: none !important;
+}
+.nextArticle a:hover{
+    color: #1fb25a;
 }
 .greenAfixPos{
     position: absolute;
