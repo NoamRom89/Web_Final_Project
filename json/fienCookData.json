@@ -1,0 +1,38 @@
+{
+    "systemArticles":{
+        "titels":{
+            "vaccumArticleTitle":"שיטת הבישול בואקום הולכת ותופסת מקום מרכזי בעולם הבישול",
+            "secondArticleTitle":"",
+            "thirdArticleTitle":""
+        }
+    },
+    "recipes":{
+        "titles": {
+            "riceTitle":"אורז מלא בלימון ועשבי תיבול",
+            "vodkaWatermellonTitle":"שאט וודקה ואבטיח",
+            "coldCoffeTitle":"קפה קר ללא לקטוז"
+        },
+        "images":{
+            "riceImgSrc": "#",
+            "vodkaWatermellonImgSrc":"images/vodkaWatermellon.jpg",
+            "coldCoffeImgSrc": "#"
+        },
+        "description":{
+            "riceRecipeDescription":"",
+            "vodkaWaterMellonDescription": "שאט וודקה אבטיח הוא משקה מושלם לערב שרבי. הוודקה תתן לכם את מלוא כובד האלהוכהול, והאבטיח עם המנטה את הקלילות של הקיץ. לחיים!",
+            "coldCoffeDescription": ""
+        },
+        "recipes":{
+            "riceRecipes": "",
+            "vodkaWatermellonRecipes":{
+                "vodkaWatermellonRecipesP1":"החומרים",
+                "vodkaWatermellonRecipesP2":"100 גרם סוכר",
+                "vodkaWatermellonRecipesP3":"600 גרם אבטיח חתוך לקוביות קפואות",
+                "vodkaWatermellonRecipesP4":"100 גרם מיץ לימון",
+                "vodkaWatermellonRecipesP5":"100 גרם מים",
+                "vodkaWatermellonRecipesP6":"330 גרם וודקה"
+            },
+            "coldCoffeRecipes": ""
+        }
+    }
+}
