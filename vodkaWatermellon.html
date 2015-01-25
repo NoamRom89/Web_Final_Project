@@ -11,13 +11,13 @@
         <a href="index.html" id="logo"></a>
     </header>
     <nav id="topNav">
-        <ul>
+        <ul id="topNavVWHover">
             <li><a href="#">שאלות ותשובות</a></li>
-            <li><a href="#">צרו קשר</a></li>
+            <li><a href="conatctForm.html">צרו קשר</a></li>
             <li><a href="#">כתבו עלינו</a></li>
             <li><a href="#">בלוג</a></li>
             <li><a href="#">פורום</a></li>
-            <li><a href="#">בית פין קוק</a></li>
+            <li><a href="fiencookHouse.html">בית פין קוק</a></li>
             <li><a href="#">יאיר פיינברג</a></li>
             <li><a href="index.html">עמוד הבית</a></li>
         </ul>
@@ -25,10 +25,10 @@
     <div class="clear"></div>
     <main id="contentMainRecipesArticle">
         <nav id="mainNav">
-            <ul>
+            <ul id="mainNavVMHover">
                 <li><a href="index.html">עמוד הבית</a></li>
                 <li><img src="images/brownArrow.png" class="brownArrowImg"></li>
-                <li><a href="content.html">מתכונים</a></li>
+                <li><a href="recipes.html">מתכונים</a></li>
                 <li><img src="images/orangeArrow1.png" class="brownArrowImg"></li>
                 <li><a href="vodkaWatermellon.html" class="orangeRecipesLogo">שאט וודקה אבטיח</a></li>
             </ul>
@@ -73,17 +73,16 @@
             <section id="sendRecipes">
                 <p>שלח לנו מתכון!</p>
                 <ul>
-                    <li>הדפסה</li>
-                    <img src="images/orangeArrowRight.png">
-                    <li>הקודם</li>
-                    <li>הבא</li>
+                    <li><a href="#">הדפסה</a></li>
+                    <img src="images/orangeArrowRight.png" id="sendRecipesUlLiFirstChild">
+                    <li><a href="#">הקודם</a></li>
+                    <li id="sendRecipesUlLiLastChild"><a href="#">הבא</a></li>
                     <img src="images/orangeArrow.png">
                 </ul>
             </section>
             <div class="clear"></div>
         </section>
     </main>
-
     <aside id="vodkaWatermellonaside">
         <section id="asideSearch">
             <form>
@@ -99,21 +98,21 @@
             </ul>
             <ul id="ulLastChild">
                 <li class="orange">מתכונים לתרמומיקס</li>
-                <ul>
-                    <li>אורז מלא בלימון ועשבי תיבול</li>
+                <ul id="ulInnerRecipesTermo">
+                    <li><a href="#"> אורז מלא בלימון ועשבי תיבול</a></li>
                     <li><a href="vodkaWatermellon.html" class="orange">שאט של וודקה אבטיח</a></li>
-                    <li>קפה קר ללא לקטוז</li>
-                    <li>דואט קנולי</li>
-                    <li>גלילי ביסקוויט שוקולוד</li>
-                    <li>בצק שמרים ללא גלוטן</li>
-                    <li>חזה עוף במרינדה</li>
+                    <li><a href="#">קפה קר ללא לקטוז</a></li>
+                    <li><a href="#">דואט קנולי</a></li>
+                    <li><a href="#">גלילי ביסקוויט שוקולוד</a></li>
+                    <li><a href="#">בצק שמרים ללא גלוטן</a></li>
+                    <li><a href="#">חזה עוף במרינדה</a></li>
                 </ul>
-                <li>מתכונים לפיין-קוקר</li>
-                <li>מתכוני גולשים</li>
+                <li><a href="#">מתכונים לפיין-קוקר</a></li>
+                <li><a href="#">מתכוני גולשים</a></li>
             </ul>
         </nav>
         <nav id="asideNavCenter">
-            <ul>
+            <ul id="asideNavCenterVMHover">
                 <li id="asideNavCenterTitle">עולמות תוכן</li>
                 <li class="asideNavCentedot"><a href="#">התרמומיקס</a></li>
                 <li class="asideNavCentedot"><a href="#">בישול בואקום</a></li>
@@ -131,11 +130,11 @@
     <footer id="contentfooterVodkaWatermellon">
         <section id="footerSection">
             <section id="footerSharing">
-                <img src="images/facebooklogo.png" class="footerSharingImg paddingleft" >
-                <img src="images/twitterlogo.png" class="footerSharingImg" >
-                <img src="images/youtubelogo.png" class="footerSharingImg" >
-                <img src="images/tapuzlogo.png" class="footerSharingImg" >
-                <img src="images/themarkercafelogo.png" class="footerSharingImg" >
+                <a href="https://www.facebook.com/FeinCook"><img src="images/facebooklogo.png" class="footerSharingImg paddingleft" ></a>
+                <a href="https://twitter.com/?lang=he"><img src="images/twitterlogo.png" class="footerSharingImg" ></a>
+                <a href="https://www.youtube.com/channel/UCRUO2fPRXEjs-xlpZxE8zUA"><img src="images/youtubelogo.png" class="footerSharingImg" ></a>
+                <a href="#"><img src="images/tapuzlogo.png" class="footerSharingImg" ></a>
+                <a href="#"><img src="images/themarkercafelogo.png" class="footerSharingImg" ></a>
             </section>
             <section id="footerCopyrights">
                 <p>עיצוב: דוד חליבה תקשורת חזותית פיתוח:Dynamic Web</p>
