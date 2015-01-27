@@ -40,7 +40,7 @@ header,main,footer,aside,nav,article,section{
     width:960px;
     margin: 0 auto;
 }
-#vodkaWatermellonWrapper{
+.recipesWrapper{
     position: relative;
     height: 1257px;
     width:960px;
@@ -193,9 +193,9 @@ main{
     width: 573px;
     height: 607px;
 }
-#contentMainRecipesArticle{
+.contentMainRecipesArticle{
     width: 573px;
-    height: 461px;
+    height: 1038px;
 }
 #contentMainFienCook{
     width: 573px;
@@ -825,7 +825,7 @@ aside{
 }
 /*-------------------------------------------*/
 /*****          Content article style           *****/
-#contentArticle{
+.contentArticle{
     position: absolute;
     top: 29px;
     right: 30px;
@@ -1018,7 +1018,7 @@ aside{
 }
 #picRecipe{
     width: 512px;
-    height: 142px;
+    height: 165px;
     position: absolute;
     top: 73px;
     right: 12px;
@@ -1033,6 +1033,9 @@ aside{
     float: right;
     border: 2px solid #87746a;
     border-radius: 5px;
+}
+#picRecipe a:hover{
+    opacity: 0.3;
 }
 #h3recipetitle{
     position: absolute;
@@ -1052,6 +1055,13 @@ aside{
     text-align: center;
     font-weight: normal;
     margin-top: 5px;
+}
+.h3RecipeTitle a:link, .h3RecipeTitle a:visited{
+    text-decoration: none;
+    color: #87746a;
+}
+.h3RecipeTitle a:hover{
+
 }
 
 /*********************************************************************************/
@@ -1256,13 +1266,13 @@ aside{
 #mainNavVMHover a:hover{
     color: #f26631;
 }
-#vodkaWMAarticleStyle{
+.articleStyle{
     width: 544px;
     height: 985px;
     position: absolute;
     top: 22px;
 }
-#vodkaWMAarticleStyle h1{
+.articleStyle h1{
     position: absolute;
     top: 8px;
     right: 15px;
@@ -1272,7 +1282,7 @@ aside{
     font-weight: bold;
     font-family: ariel,Verdana,sans-serif;
 }
-#vodkaWatermellonImg{
+.articleImgStyle{
     position: absolute;
     top: 45px;
     right: 2px;
@@ -1281,7 +1291,7 @@ aside{
     border: 2px solid #87746a;
     border-radius: 5px;
 }
-#vodkaWMAarticleStylePara{
+.articleStylePara{
     position: absolute;
     top: 207px;
     right: 15px;
@@ -1292,20 +1302,20 @@ aside{
     font-weight: bold;
     font-family: ariel,Verdana,sans-serif;
 }
-#vodkaWMAarticleStyleRecipes{
+.articleStyleRecipes{
     position: absolute;
     top: 260px;
     right: 15px;
     width: 200px;
 }
-#vodkaWMAarticleStyleRecipes p{
+.articleStyleRecipes p{
     color: #87746a;
     direction: rtl;
     font-size: 13px;
     font-family: ariel,Verdana,sans-serif;
     padding-top: 2px;
 }
-#vodkaWMAarticleStyleRecipes p:first-child{
+.articleStyleRecipes p:first-child{
     font-weight: bold;
 }
 

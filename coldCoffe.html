@@ -2,16 +2,19 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>מתכונים</title>
+    <title>קפה קר ללא לקטוז</title>
+    <script src="includes/jquery-2.1.1.min.js"></script>
+    <script src="includes/scripts.js"></script>
     <link rel="stylesheet" href="includes/style.css">
 </head>
+
 <body>
-<div id="recipesWrapper">
+<div class="recipesWrapper">
     <header>
         <a href="index.html" id="logo"></a>
     </header>
     <nav id="topNav">
-        <ul id="topNavRecipeHover">
+        <ul id="topNavVWHover">
             <li><a href="#">שאלות ותשובות</a></li>
             <li><a href="conatctForm.html">צרו קשר</a></li>
             <li><a href="#">כתבו עלינו</a></li>
@@ -23,58 +26,88 @@
         </ul>
     </nav>
     <div class="clear"></div>
-    <main id="contentMainRecipesArticle">
+    <main class="contentMainRecipesArticle">
         <nav id="mainNav">
-            <ul>
-                <li id="orangeHover"><a href="index.html">עמוד הבית</a></li>
+            <ul id="mainNavVMHover">
+                <li><a href="index.html">עמוד הבית</a></li>
+                <li><img src="images/brownArrow.png" class="brownArrowImg"></li>
+                <li><a href="recipes.html">מתכונים</a></li>
                 <li><img src="images/orangeArrow1.png" class="brownArrowImg"></li>
-                <li><a href="recipes.html" class="orangeRecipesLogo">מתכונים</a></li>
+                <li><a href="fullRiceRecipe.html" class="orangeRecipesLogo">קפה קר ללא לקטוז</a></li>
             </ul>
         </nav>
         <div class="clear"></div>
         <section class="contentArticle">
             <h2 id="articleHeader">מתכונים</h2>
-            <article id="recipeAarticleStyle">
-                <p id="recipeAarticleStylePara">
-                    <span id="bold">מתכון חדש ומומלץ ביותר!</span>
-                    <span><a href="vodkaWatermellon.html" class="orange">"שאט וודקה ואבטיח" </a></span>ב"מתכונים לתרמומיקס". כמה פשוט ככה טעים. וגם מרענן! יש לנו גם מתכוני גולשים חדשים ומרגשים, וכולם מאוד פשוטים להכנה. תודה לכל מי ששלח לנו מתכון, המשיכו לשלוח לנו ולמלא לנו את מלאי המתכונים ואת הלב.
-                </p>
-                <section id="picRecipe">
-                    <a href="fullRiceRecipe.html"><img src="images/termomiksRecipe.jpg" ></a>
-                    <a href="#"><img src="images/fiencookRecipe.jpg"></a>
-                    <a href="#"><img src="images/slidersRecipe.jpg"></a>
+            <article class="articleStyle">
+                <h1></h1>
+                <img class="articleImgStyle">
+                <p class="articleStylePara"></p>
+                <section class="articleStyleRecipes">
+                    <p>החומרים</p>
                 </section>
-                <div class="clear"></div>
-                <section id="h3recipetitle">
-                    <h3 class="h3RecipeTitle"><a href="fullRiceRecipe.html">מתכונים לתרמומיקס</a></h3>
-                    <h3 class="h3RecipeTitle"><a href="#">מתכונים לפיין-קוקר</a></h3>
-                    <h3 class="h3RecipeTitle"><a href="#">מתכוני גולשים</a></h3>
+
+                <section id="vodkaWMAarticleStylePreparation">
+                    <p>אופן ההכנה</p>
+                    <p>1. שוקלים את הסוכר ישירות לקערת התרמומיקס וטוחנים 10 שניות במהירות 10</p>
+                    <p>2. מוסיפים את קוביות האבטיח הקפואות וקוצצים 30 שניות במהירות 10</p>
+                    <p>3. מוסיפים את מיץ הלימון, המים והוודקה ומערבבים 30 שניות במהירות 6</p>
+                    <p>4. שומרים בקירור!</p>
                 </section>
-                <div class="clear"></div>
+
+                <section id="picsSlider">
+                    <ul>
+                        <li>2/6 דפדפו בין התמונות</li>
+                        <li><img src="images/rightBrownArrow.jpg"></li>
+                        <li><img src="images/leftBrownArrow.jpg"></li>
+                    </ul>
+                    <img src="images/picsSlider.jpg" id="picsSliderBigImg">
+                    <p>הצעת הגשה: מעל עלים טריים.</p>
+                </section>
             </article>
+            <section id="sendRecipes">
+                <p>שלח לנו מתכון!</p>
+                <ul>
+                    <li><a href="#">הדפסה</a></li>
+                    <img src="images/orangeArrowRight.png" id="sendRecipesUlLiFirstChild">
+                    <li><a href="#">הקודם</a></li>
+                    <li id="sendRecipesUlLiLastChild"><a href="#">הבא</a></li>
+                    <img src="images/orangeArrow.png">
+                </ul>
+            </section>
+            <div class="clear"></div>
         </section>
     </main>
-    <aside id="recipeAside">
+    <aside id="vodkaWatermellonaside">
         <section id="asideSearch">
             <form>
                 <input type="search" id="search" placeholder="חפש" />
             </form>
         </section>
-        <nav id="asideNavTopContentRecipe">
+        <nav id="asideNavTopContentvodkaWatermellon">
             <ul>
-                <li><a href="systemArticles.html"> מאמרי מערכת</a></li>
+                <li><a href="systemArticles.html">מאמרי מערכת</a></li>
                 <li><a href="#">סדנאות ואירועים</a></li>
                 <li><a href="#">מוצרים</a></li>
                 <li><a href="recipes.html" class="orange">מתכונים</a></li>
             </ul>
             <ul id="ulLastChild">
-                <li><a href="fullRiceRecipe.html"> מתכונים לתרמומיקס</a></li>
-                <li><a href="#"> מתכונים לפיין-קוקר</a></li>
-                <li><a href="#"> מתכוני גולשים</a></li>
+                <li class="orange">מתכונים לתרמומיקס</li>
+                <ul id="ulInnerRecipesTermo">
+                    <li><a href="fullRiceRecipe.html"> אורז מלא בלימון ועשבי תיבול</a></li>
+                    <li><a href="vodkaWatermellon.html">שאט של וודקה אבטיח</a></li>
+                    <li><a href="coldCoffe.html" class="orange">קפה קר ללא לקטוז</a></li>
+                    <li><a href="#">דואט קנולי</a></li>
+                    <li><a href="#">גלילי ביסקוויט שוקולוד</a></li>
+                    <li><a href="#">בצק שמרים ללא גלוטן</a></li>
+                    <li><a href="#">חזה עוף במרינדה</a></li>
+                </ul>
+                <li><a href="#">מתכונים לפיין-קוקר</a></li>
+                <li><a href="#">מתכוני גולשים</a></li>
             </ul>
         </nav>
         <nav id="asideNavCenter">
-            <ul id="asideNavCenterHover">
+            <ul id="asideNavCenterVMHover">
                 <li id="asideNavCenterTitle">עולמות תוכן</li>
                 <li class="asideNavCentedot"><a href="#">התרמומיקס</a></li>
                 <li class="asideNavCentedot"><a href="#">בישול בואקום</a></li>
@@ -89,7 +122,7 @@
             </ul>
         </nav>
     </aside>
-    <footer id="contentfooterRecipes">
+    <footer id="contentfooterVodkaWatermellon">
         <section id="footerSection">
             <section id="footerSharing">
                 <a href="https://www.facebook.com/FeinCook"><img src="images/facebooklogo.png" class="footerSharingImg paddingleft" ></a>
