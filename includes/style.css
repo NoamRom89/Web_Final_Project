@@ -106,7 +106,7 @@ header{
 
 }
 #topNav ul li{
-    padding: 3px 8px 3px 8px;
+    padding: 3px 6px 3px 6px;
     float: left;
     border-left: 1px dotted #c3b9b4;
 }
@@ -268,7 +268,7 @@ main{
 
 }
 #youtube{
-    padding: 1px,0px,0px,1px;
+    padding: 1px 0px 0px 1px;
     width:307px;
     height:186px;
     margin-top: 16px;
