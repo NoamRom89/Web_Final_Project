@@ -6,9 +6,8 @@
  -----------------------------------*/
 
 * {
-    padding:0px;
-    margin:0px;
-
+    padding:0;
+    margin:0;
 }
 
 header,main,footer,aside,nav,article,section{
@@ -139,8 +138,8 @@ header{
 #mainNav ul li{
     font-size: 11px;
     float: right;
-    margin:1px;
-    margin-left: 2px;
+    margin:1px 1px 3px 1px;
+    /*margin-left: 2px;*/
     font-family: ariel,Verdana,sans-serif;
 }
 .mainNavLastLi a:link,.mainNavLastLi a:visited{
@@ -166,8 +165,8 @@ header{
 #contactNav ul li{
     font-size: 11px;
     float: right;
-    margin:1px;
-    margin-left: 2px;
+    margin:1px 1px 3px 1px;
+    /*margin-left: 2px;*/
     font-family: ariel,Verdana,sans-serif;
 }
 #contactNav ul li:last-child  a:link,#contactNav ul li:last-child  a:visited{
@@ -268,7 +267,7 @@ main{
 
 }
 #youtube{
-    padding: 1px 0px 0px 1px;
+    padding: 1px 0 0 1px;
     width:307px;
     height:186px;
     margin-top: 16px;
