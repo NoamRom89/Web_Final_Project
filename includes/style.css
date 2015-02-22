@@ -638,9 +638,14 @@ ul.triggers li {
     cursor:pointer;
     color:#ccc;
     padding:10px;
+
 }ul.triggers li.selected {
-     background-color:red;
-     color:#000;
+     float:left;
+     margin:0 5px;
+     font: bold 28px arial;
+     cursor:pointer;
+     color:#ccc;
+     padding:10px;
  }
 /*-------------------------------------------*/
 
