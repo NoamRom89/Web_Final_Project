@@ -613,7 +613,6 @@ main{
 /*Main Page Slide Photo*/
 .mask {
     float:left;
-    margin:40px;
     width:314px;
     height:265px;
     overflow:hidden;
