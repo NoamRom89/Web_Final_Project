@@ -613,7 +613,7 @@ main{
 /*Main Page Slide Photo*/
 .mask {
     float:left;
-    width:314px;
+    width:341px;
     height:265px;
     overflow:hidden;
 }
@@ -628,7 +628,7 @@ ul.images li {
 
 ul.triggers {
     position:absolute;
-    top:310px;
+    top:225px;
     left:80px;
 }
 ul.triggers li {
