@@ -618,6 +618,7 @@ main{
     overflow:hidden;
 }
 ul.images {
+    list-style-type: none;
     position:relative;
     top:0px;
     left:0px;
@@ -642,7 +643,6 @@ ul.triggers li {
     padding:10px;
 
 }ul.triggers li.selected {
-     background-color:red;
      color:#000;
  }
 /*-------------------------------------------*/
