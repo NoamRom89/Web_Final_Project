@@ -615,6 +615,9 @@ main{
     height:265px;
     overflow:hidden;
 }
+.images img{
+    width:341px;
+}
 ul.images {
     list-style-type: none;
     position:relative;
