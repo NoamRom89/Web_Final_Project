@@ -634,10 +634,9 @@ ul.triggers {
 ul.triggers li {
     float:left;
     margin:0 5px;
-    font: bold 16px arial;
+    font: bold 28px arial;
     cursor:pointer;
-    background-color:#ccc;
-    color:#000;
+    color:#ccc;
     padding:10px;
 }ul.triggers li.selected {
      background-color:red;
