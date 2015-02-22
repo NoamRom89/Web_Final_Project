@@ -630,8 +630,10 @@ ul.triggers {
     position:absolute;
     top:225px;
     left:80px;
+    list-style-type: none;
 }
 ul.triggers li {
+
     float:left;
     margin:0 5px;
     font: bold 28px arial;
