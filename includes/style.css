@@ -610,6 +610,42 @@ main{
 }
 /*-------------------------------------------*/
 
+/*Main Page Slide Photo*/
+.mask {
+    float:left;
+    margin:40px;
+    width:314px;
+    height:265px;
+    overflow:hidden;
+}
+ul.images {
+    position:relative;
+    top:0px;
+    left:0px;
+}
+ul.images li {
+    float:left;
+}
+
+ul.triggers {
+    position:absolute;
+    top:310px;
+    left:80px;
+}
+ul.triggers li {
+    float:left;
+    margin:0 5px;
+    font: bold 16px arial;
+    cursor:pointer;
+    background-color:#ccc;
+    color:#000;
+    padding:10px;
+}ul.triggers li.selected {
+     background-color:red;
+     color:#000;
+ }
+/*-------------------------------------------*/
+
 
 /*aside style*/
 aside{
