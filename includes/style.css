@@ -164,7 +164,7 @@ header,main,footer,aside,nav,article,section{
 
     #slideshowtext {
         width: 34.5%;
-        height: 265px;
+        height: 100%;
         background-color: #87746A;
         direction: rtl;
         float: left;
@@ -173,14 +173,14 @@ header,main,footer,aside,nav,article,section{
     #h1slideshow {
         font-family: ariel, Verdana, sans-serif;
         color: #ffffff;
-        font-size: 19px;
+        font-size: 1.2666em;
         padding: 17px 21px 0 21px;
     }
 
     #slideshowtext > p {
         font-family: ariel, Verdana, sans-serif;
         color: #ffffff;
-        font-size: 11px;
+        font-size: 0.91666em;
         padding: 16px 21px 21px 20px;
 
     }
@@ -215,7 +215,7 @@ header,main,footer,aside,nav,article,section{
     ul.triggers {
         position: absolute;
         bottom: 0px;
-        left: 80px;
+        left: 13%;
         list-style-type: none;
     }
 
