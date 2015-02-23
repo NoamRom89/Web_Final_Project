@@ -886,11 +886,10 @@ aside{
 /*******        Vaccum article style         *******/
 #vaccumAarticleStyle{
     width: 544px;
-    height: 430px;
+    height: 475px;
     position: absolute;
     top: 22px;
     border-bottom: 2px solid #e7e3e1;
-    padding-bottom: 38px;
 }
 #vaccumAarticleStyle h2{
     position: absolute;
@@ -951,6 +950,8 @@ aside{
     color: #87746a;
 }
 #vaccumAarticleStyleNextBeforeArticle{
+    position: relative;
+    top:35px;
     width: 544px;
     height: 86px;
 }
