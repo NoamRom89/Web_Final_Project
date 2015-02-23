@@ -13,7 +13,7 @@
 header,main,footer,aside,nav,article,section{
     display: block;
 }
-@media (max-width: 640px) {
+@media (max-width: 320px) {
 
     .clear {
         clear: both;
@@ -246,7 +246,11 @@ header,main,footer,aside,nav,article,section{
     }
     #bigArticle {
         margin-top: 15px;
-        width: 100%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .endArticle{
+        margin-bottom: 80px;
     }
 
     #youtube {
@@ -443,7 +447,7 @@ footer {
 
 }
 
-@media (min-width: 641px)
+@media (min-width: 321px)
 {
 
     /*****          Wrappers            *****/
