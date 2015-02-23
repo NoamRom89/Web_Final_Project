@@ -91,7 +91,49 @@ header,main,footer,aside,nav,article,section{
 
     /*-------------------------------------------*/
 
+    /*****          Top Nav style           *****/
+    #topNav {
+        direction: rtl;
+        border-top: 1px dotted #c3b9b4;
+        font-family: ariel, Verdana, sans-serif;
+        color: #87746a;
+        font-size: 1.083em;
+    }
+
+    #topNav a:link, #topNav a:visited {
+        color: #87746a;
+        text-decoration: none;
+    }
+
+    #topNav a:hover {
+        color: #1fb25a;
+    }
+
+    #topNav a:active {
+        color: #42ca44;
+    }
+
+    #topNav ul {
+        list-style-type: none;
+        margin-top: 13px;
+
+    }
+
+    #topNav ul li {
+        padding: 3px 6px 3px 6px;
+        float: left;
+        border-left: 1px dotted #c3b9b4;
+    }
+
+    #orangeLi {
+        color: #ffae3b !important;
+    }
 }
+
+
+
+
+
 @media (min-width: 641px)
 {
 
