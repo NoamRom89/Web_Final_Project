@@ -236,6 +236,14 @@ header,main,footer,aside,nav,article,section{
 
     /*-------------------------------------------*/
 /************************ article style *************************/
+    .h3contentWorld {
+        direction: rtl;
+        font-family: ariel, Verdana, sans-serif;
+        color: #87746a;
+        padding-right: 18px;
+        padding-top: 8px;
+        border-top: 2px solid #87746a;
+    }
     #bigArticle {
         margin-top: 15px;
         width: 100%;
