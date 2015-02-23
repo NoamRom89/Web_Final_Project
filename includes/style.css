@@ -82,10 +82,8 @@ header,main,footer,aside,nav,article,section{
     }
 
     #logo {
-        width: 24.375%;
-        height: 11.14584%;
-        position: absolute;
-        left: 12.083%;
+        width: 100%;
+        height: 3.2%;
         background-image: url("../images/logo.png");
         background-repeat: no-repeat;
     }
