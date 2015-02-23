@@ -232,13 +232,12 @@ header,main,footer,aside,nav,article,section{
     #bigArticle {
         position: absolute;
         top: 340px;
-        width: 307px;
+        width: 100%;
 
     }
 
     #youtube {
         padding: 1px 0 0 1px;
-        width: 307px;
         height: 186px;
         margin-top: 16px;
     }
@@ -352,6 +351,9 @@ header,main,footer,aside,nav,article,section{
         border-bottom: 2px solid #e7e3e1;
     }
 
+    #whatsnew{
+        direction: rtl;
+    }
     /*********************************************************************/
 
 /*****  Footer Style    *****/
