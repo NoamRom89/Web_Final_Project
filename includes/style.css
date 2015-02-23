@@ -416,6 +416,7 @@ main{
 #asideNavTopContent >ul{
     list-style-type: none;
     padding-top: 3px;
+    margin-bottom: 8px;
 }
 #asideNavTopContent > ul > li{
     padding-top: 5px;
@@ -464,7 +465,6 @@ main{
     color: #87746a;
     margin-right: 10px;
     font-size: 13px;
-    height: 108px;
     border-top: 2px solid #87746a;
 
 }
@@ -477,6 +477,9 @@ main{
 }
 #asideNavCenter ul {
     list-style-type: none;
+    margin-right: 12px;
+    margin-top: 5px;
+    margin-bottom: 8px;
 }
 #asideNavCenterTitle{
     font-size: 16px;
@@ -496,10 +499,6 @@ main{
     content: "• ";
     color:#87746a;
     margin-right: -15px;
-}
-#asideNavCenter ul {
-    margin-right: 12px;
-    margin-top: 5px;
 }
 #asideNavBottom{
     direction: rtl;
@@ -668,7 +667,7 @@ aside{
     left: 689px;
     top: 108px;
     width: 160px;
-    height: 537px;
+    height: 645px;
     border-top: 1px dotted #c3b9b4;
     padding-left: 3px;
     padding-right: 6px;
@@ -704,7 +703,6 @@ aside{
     font-family: ariel,Verdana,sans-serif;
     color: #87746a;
     font-size: 13px;
-    height: 234px;
     margin-right: 10px;
     border-top: 2px solid #87746a;
 }
@@ -718,6 +716,7 @@ aside{
 #asideNavTop > ul{
     list-style-type: none;
     padding-top: 3px;
+
 }
 
 #asideNavTop > ul > li {
