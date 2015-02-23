@@ -228,7 +228,131 @@ header,main,footer,aside,nav,article,section{
     }
 
     /*-------------------------------------------*/
+/************************ article style *************************/
+    #bigArticle {
+        position: absolute;
+        top: 340px;
+        width: 307px;
 
+    }
+
+    #youtube {
+        padding: 1px 0 0 1px;
+        width: 307px;
+        height: 186px;
+        margin-top: 16px;
+    }
+
+    #articleBigPic {
+        direction: rtl;
+        margin-top: 16px;
+        margin-left: 14px;
+        border: 2px solid #87746a;
+        border-radius: 5px;
+
+    }
+
+    .articleCotert {
+        direction: rtl;
+        font-family: ariel, Verdana, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #87746a;
+        padding-top: 16px;
+        margin-right: 11px;
+
+    }
+
+    .articleDate {
+        direction: rtl;
+        font-family: ariel, Verdana, sans-serif;
+        font-size: 10px;
+        color: #ffd479;
+        margin-right: 10px;
+    }
+
+    .articleText {
+        direction: rtl;
+        font-family: ariel, Verdana, sans-serif;
+        font-size: 12px;
+        color: #87746a;
+        padding-top: 13px;
+        padding-left: 35px;
+        margin-right: 11px;
+        padding-bottom: 15px;
+    }
+
+    .articleLink {
+        font-family: ariel, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        color: #87746a;
+        padding-left: 15px;
+        padding-bottom: 14px;
+        margin-right: 198px;
+    }
+
+    .articleLink a:link, .articleLink a:visited {
+        color: #87746a;
+        text-decoration: none;
+    }
+
+    .articleLink a:hover {
+        color: #f26631;
+    }
+
+    .al1 a:hover {
+        color: #1fb25a;
+    }
+
+    .systemArticle, #simpleRecipe, #contentWorld {
+        direction: rtl;
+    }
+
+    .systemArticlePic {
+        margin-top: 15px;
+        margin-right: 15px;
+        border: 2px solid #87746a;
+        border-radius: 5px;
+    }
+
+    .systemArticleCotert {
+        direction: rtl;
+        font-family: ariel, Verdana, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #87746a;
+        margin-top: -100px;
+        padding-left: 25px;
+        margin-right: 133px;
+
+    }
+
+    .systemArticleDate {
+        direction: rtl;
+        font-family: ariel, Verdana, sans-serif;
+        font-size: 10px;
+        color: #00b25a;
+        margin-right: 133px;
+        padding-bottom: 10px;
+    }
+
+    .systemArticleText {
+        direction: rtl;
+        font-family: ariel, Verdana, sans-serif;
+        font-size: 12px;
+        color: #87746a;
+        margin-right: 133px;
+        padding-bottom: 15px;
+    }
+
+    #endArticle {
+        margin-right: 1px;
+        width: 307px;
+        border-bottom: 2px solid #e7e3e1;
+    }
+
+    /*********************************************************************/
 
 /*****  Footer Style    *****/
 
