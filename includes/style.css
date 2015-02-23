@@ -863,10 +863,11 @@ aside{
 /*****          Content article style           *****/
 .contentArticle{
     position: absolute;
+    direction: rtl;
     top: 29px;
     right: 30px;
     width: 544px;
-    height: 575px;
+    height: 1007px;
     border-top: 2px solid #87746a;
 }
 #articleHeader{
@@ -1269,33 +1270,28 @@ aside{
     top: 22px;
 }
 .articleStyle h1{
-    position: absolute;
-    top: 8px;
-    right: 15px;
+    margin-top: 8px;
+    margin-right: 15px;
     color: #f26631;
-    direction: rtl;
     font-size: 19px;
     font-weight: bold;
     font-family: ariel,Verdana,sans-serif;
 }
 .articleImgStyle{
-    position: absolute;
-    top: 45px;
-    right: 2px;
-    margin-left: 20px;
-    margin-right: 13px;
+    margin-top: 10px;
+    margin-right: 15px;
     border: 2px solid #87746a;
     border-radius: 5px;
 }
-.articleStylePara{
-    position: absolute;
-    top: 207px;
-    right: 15px;
+.articleStyleBoldPara{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.articleStyle p{
+    margin-right: 15px;
     width: 516px;
     color: #87746a;
-    direction: rtl;
     font-size: 13px;
-    font-weight: bold;
     font-family: ariel,Verdana,sans-serif;
 }
 .articleStyleRecipes{
@@ -1310,9 +1306,6 @@ aside{
     font-size: 13px;
     font-family: ariel,Verdana,sans-serif;
     padding-top: 2px;
-}
-.articleStyleRecipes p:first-child{
-    font-weight: bold;
 }
 
 #vodkaWMAarticleStylePreparation{
@@ -1374,7 +1367,7 @@ aside{
 }
 #sendRecipes{
     position: absolute;
-    top: 924px;
+    top: 905px;
     left: 6px;
     width: 550px;
     height: 83px;
@@ -1402,7 +1395,7 @@ aside{
 }
 #sendRecipes ul{
     position: absolute;
-    left: 33px;
+    left: 45px;
     top: 16px;
     height: 18px;
     width: 167px;
