@@ -128,7 +128,7 @@ header,main,footer,aside,nav,article,section{
     #orangeLi {
         color: #ffae3b !important;
     }
-}
+
 
 
 /*****  Footer Style    *****/
@@ -203,7 +203,7 @@ footer {
 }
 /****************************************************/
 
-
+}
 
 @media (min-width: 641px)
 {
