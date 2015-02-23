@@ -13,7 +13,7 @@
 header,main,footer,aside,nav,article,section{
     display: block;
 }
-@media all and (max-width: 640px) {
+@media all and (max-width: 320px) {
 
     .clear {
         clear: both;
@@ -447,7 +447,7 @@ footer {
 
 }
 
-@media all and (min-width: 641px)
+@media all and (min-width: 321px)
 {
 
     /*****          Wrappers            *****/
