@@ -129,7 +129,9 @@ header,main,footer,aside,nav,article,section{
         color: #ffae3b !important;
     }
 
-
+#tickerText{
+    display: none;
+}
 
 /*****  Footer Style    *****/
 
