@@ -761,8 +761,9 @@ aside{
 }
 
 #ulLastChild{
-    list-style-type: none !important;
-    padding-top: 11px !important;
+    list-style-type: none;
+    padding-top: 11px;
+    margin-bottom: 5px;
 }
 #ulLastChild a:link, #ulLastChild a:visited{
     color:#87746a;
@@ -807,7 +808,7 @@ aside{
 #asideNavTopContentvodkaWatermellon a:hover{
     color: #f26631;
 }
-#asideNavTopContentvodkaWatermellon >ul{
+#asideNavTopContentvodkaWatermellon > ul:first-child{
     list-style-type: none;
     padding-top: 3px;
 }
