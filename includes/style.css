@@ -92,7 +92,7 @@ header,main,footer,aside,nav,article,section{
     #logo {
         position: absolute;
         width: 100%;
-        height: 3.2%;
+        height: 23%;
         background-image: url("../images/logo.png");
         background-repeat: no-repeat;
     }
@@ -146,22 +146,23 @@ header,main,footer,aside,nav,article,section{
 
     /*Main Page Slide Photo*/
     #slideshow {
+        margin-top: 15px;
         height: 269px;
-        width: 531px;
+        width: 100%;
         border: 2px solid #87746a;
         border-radius: 5px;
     }
 
     #slideshowinner {
         height: 265px;
-        width: 527px;
+        width: 100%;
         border: 2px solid #ffffff;
         border-radius: 5px;
 
     }
 
     #slideshowtext {
-        width: 186px;
+        width: 34.5%;
         height: 265px;
         background-color: #87746A;
         direction: rtl;
@@ -192,7 +193,7 @@ header,main,footer,aside,nav,article,section{
     .mask {
         float: left;
         width: 341px;
-        height: 265px;
+        height: 64.7058%;
         overflow: hidden;
     }
 
@@ -236,10 +237,8 @@ header,main,footer,aside,nav,article,section{
     /*-------------------------------------------*/
 /************************ article style *************************/
     #bigArticle {
-        position: absolute;
-        top: 340px;
+        margin-top: 15px;
         width: 100%;
-
     }
 
     #youtube {
