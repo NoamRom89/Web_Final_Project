@@ -18,7 +18,7 @@ header,main,footer,aside,nav,article,section{
     .clear {
         clear: both;
     }
-    
+
     body{
         font-family: ariel, Verdana, sans-serif;
         font-size: 12px;
@@ -143,8 +143,6 @@ header,main,footer,aside,nav,article,section{
 
     /*Main Page Slide Photo*/
     #slideshow {
-        position: absolute;
-        top: 11%;
         height: 269px;
         width: 531px;
         border: 2px solid #87746a;
