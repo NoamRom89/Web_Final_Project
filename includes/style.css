@@ -19,6 +19,9 @@ header,main,footer,aside,nav,article,section{
         font-family: ariel, Verdana, sans-serif;
         font-size: 12px;
     }
+    aside{
+        display: none;
+    }
     /* main width -        width: 960px; */
     /*****          Wrappers            *****/
     #wrapper {
