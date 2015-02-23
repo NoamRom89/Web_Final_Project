@@ -132,7 +132,9 @@ header,main,footer,aside,nav,article,section{
 #tickerText{
     display: none;
 }
-
+#contentWorld{
+    display: none;
+}
 
     /*Main Page Slide Photo*/
     #slideshow {
