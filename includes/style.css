@@ -15,10 +15,15 @@ header,main,footer,aside,nav,article,section{
 }
 @media (max-width: 640px) {
 
+    .clear {
+        clear: both;
+    }
+    
     body{
         font-family: ariel, Verdana, sans-serif;
         font-size: 12px;
     }
+
     aside{
         display: none;
     }
