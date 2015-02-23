@@ -1327,7 +1327,7 @@ aside{
 
 #picsSlider{
     position: absolute;
-    top: 495px;
+    top: 505px;
     right: -12px;
     width: 550px;
     height: 405px;
@@ -1395,10 +1395,10 @@ aside{
 }
 #sendRecipes ul{
     position: absolute;
-    left: 45px;
+    left: 0px;
     top: 16px;
     height: 18px;
-    width: 167px;
+    width: 200px;
     list-style-type: none;
 }
 #sendRecipes ul li{
