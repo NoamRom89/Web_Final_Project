@@ -6,9 +6,8 @@
  -----------------------------------*/
 
 * {
-    padding:0px;
-    margin:0px;
-
+    padding:0;
+    margin:0;
 }
 
 header,main,footer,aside,nav,article,section{
@@ -106,7 +105,7 @@ header{
 
 }
 #topNav ul li{
-    padding: 3px 8px 3px 8px;
+    padding: 3px 6px 3px 6px;
     float: left;
     border-left: 1px dotted #c3b9b4;
 }
@@ -139,8 +138,8 @@ header{
 #mainNav ul li{
     font-size: 11px;
     float: right;
-    margin:1px;
-    margin-left: 2px;
+    margin:1px 3px 3px 1px;
+    /*margin-left: 2px;*/
     font-family: ariel,Verdana,sans-serif;
 }
 .mainNavLastLi a:link,.mainNavLastLi a:visited{
@@ -166,8 +165,8 @@ header{
 #contactNav ul li{
     font-size: 11px;
     float: right;
-    margin:1px;
-    margin-left: 2px;
+    margin:1px 1px 3px 1px;
+    /*margin-left: 2px;*/
     font-family: ariel,Verdana,sans-serif;
 }
 #contactNav ul li:last-child  a:link,#contactNav ul li:last-child  a:visited{
@@ -230,8 +229,6 @@ main{
 #slideshowinner{
     height: 265px;
     width: 527px;
-    margin-left: 1px;
-    margin-top: 1px;
     border: 2px solid #ffffff;
     border-radius: 5px;
 
@@ -268,7 +265,7 @@ main{
 
 }
 #youtube{
-    padding: 1px,0px,0px,1px;
+    padding: 1px 0 0 1px;
     width:307px;
     height:186px;
     margin-top: 16px;
@@ -406,6 +403,7 @@ main{
     font-size:14px;
     color:#f26631;
     padding-top:2px;
+    margin-right: 16px;
     text-align: center;
 }
 #endContent{
@@ -609,6 +607,46 @@ main{
     color: #87746a;
     text-align: center;
 }
+/*-------------------------------------------*/
+
+/*Main Page Slide Photo*/
+.mask {
+    float:left;
+    width:341px;
+    height:265px;
+    overflow:hidden;
+}
+.images img{
+    width:341px;
+}
+ul.images {
+    list-style-type: none;
+    position:relative;
+    top:0px;
+    left:0px;
+}
+ul.images li {
+    float:left;
+}
+
+ul.triggers {
+    position:absolute;
+    top:225px;
+    left:80px;
+    list-style-type: none;
+}
+ul.triggers li {
+
+    float:left;
+    margin:0 5px;
+    font: bold 28px arial;
+    cursor:pointer;
+    color:#DBDBDB;
+    padding:10px;
+
+}ul.triggers li.selected {
+     color:#9E9E9E;
+ }
 /*-------------------------------------------*/
 
 
@@ -901,29 +939,16 @@ aside{
     position: absolute;
     width: 530px;
     height: 238px;
-    top: 162px;
+    top: 145px;
 }
 .vaccumAarticleStyleParaSection > p{
-    position: absolute;
-    right: 1px;
-    width: 485px;
     direction: rtl;
+    width: 485px;
+    margin-top: 17px;
+    margin-left: 43px;
     font-family: ariel,Verdana,sans-serif;
     font-size: 12.5px;
     color: #87746a;
-}
-#vaccumAarticleStyleParaFixedPos1{
-    top: 43px;
-}
-#vaccumAarticleStyleParaFixedPos2{
-    top: 99px;
-}
-#vaccumAarticleStyleParaFixedPos3{
-    top: 157px;
-}
-#vaccumAarticleStyleParaFixedPos4{
-    top: 201px;
-    width: 501px !important;
 }
 #vaccumAarticleStyleNextBeforeArticle{
     width: 544px;
@@ -1041,11 +1066,11 @@ aside{
     position: absolute;
     top:213px;
     right: 16px;
-    width: 499px;
+    width: 510px;
     height: 19px;
 }
 .h3RecipeTitle{
-    width: 162px;
+    width: 168px;
     height: 19px;
     direction: rtl;
     font-family: ariel,Verdana,sans-serif;
