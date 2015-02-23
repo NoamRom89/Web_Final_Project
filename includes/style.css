@@ -149,14 +149,14 @@ header,main,footer,aside,nav,article,section{
         position: relative;
         margin-top: 15px;
         height: 269px;
-        width: 100%;
+        width: 98%;
         border: 2px solid #87746a;
         border-radius: 5px;
     }
 
     #slideshowinner {
         height: 265px;
-        width: 100%;
+        width: 99%;
         border: 2px solid #ffffff;
         border-radius: 5px;
 
@@ -194,7 +194,6 @@ header,main,footer,aside,nav,article,section{
     .mask {
         float: left;
         width: 341px;
-        height: 64.7058%;
         overflow: hidden;
     }
 
