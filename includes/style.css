@@ -137,7 +137,7 @@ header,main,footer,aside,nav,article,section{
     /*Main Page Slide Photo*/
     #slideshow {
         position: absolute;
-        top: 45px;
+        top: 11%;
         height: 269px;
         width: 531px;
         border: 2px solid #87746a;
@@ -180,7 +180,7 @@ header,main,footer,aside,nav,article,section{
         float: left;
     }
 
-    
+
     .mask {
         float: left;
         width: 341px;
