@@ -131,6 +131,77 @@ header,main,footer,aside,nav,article,section{
 }
 
 
+/*****  Footer Style    *****/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 12%;
+    background-color: #87746a;
+}
+#footerSection {
+    position: relative;
+    height: 17px;
+    padding-top: 14px;
+    padding-bottom: 5px;
+}
+
+#footerSharing {
+    display: none;
+}
+#footerSharingRE {
+
+}
+
+#footerSharing a:link, #footerSharing a:visited {
+    text-decoration: none;
+}
+
+.footerSharingImg {
+    padding-right: 3px;
+}
+
+.paddingleft {
+    padding-left: 11px;
+}
+
+#footerCopyrights {
+    display: none;
+}
+
+#footerNav {
+    display: none;
+
+}
+
+#footerNav a:link, #footerNav a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footerNav a:hover {
+    color: #473a33;
+}
+
+#footerNav ul {
+    list-style-type: none;
+    margin-top: 6px;
+
+}
+
+#footerNav ul li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    float: left;
+
+}
+
+.footerNavLine {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+/****************************************************/
 
 
 
@@ -1932,7 +2003,9 @@ header,main,footer,aside,nav,article,section{
         padding-right: 8px;
         padding-left: 8px;
     }
-
+    #footerSharingRE {
+        display: none;
+    }
     /*-------------------------------------------*/
     .arrow {
         padding-right: 5px;
