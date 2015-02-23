@@ -22,11 +22,10 @@ header,main,footer,aside,nav,article,section{
     aside{
         display: none;
     }
-    /* main width -        width: 960px; */
     /*****          Wrappers            *****/
     #wrapper {
         position: relative;
-        height: 1719px;
+        height: 179.0625%;
         width: 90%;
         margin: 0 auto;
     }
