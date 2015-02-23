@@ -82,7 +82,7 @@ header,main,footer,aside,nav,article,section{
     }
 
     #logo {
-        position: absolute
+        position: absolute;
         width: 100%;
         height: 3.2%;
         background-image: url("../images/logo.png");
