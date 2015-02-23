@@ -1294,25 +1294,12 @@ aside{
     font-size: 13px;
     font-family: ariel,Verdana,sans-serif;
 }
-.articleStyleRecipes{
-    position: absolute;
-    top: 260px;
-    right: 15px;
-    width: 200px;
-}
 .articleStyleRecipes p{
     color: #87746a;
     direction: rtl;
     font-size: 13px;
     font-family: ariel,Verdana,sans-serif;
     padding-top: 2px;
-}
-
-#vodkaWMAarticleStylePreparation{
-    position: absolute;
-    top: 388px;
-    right: 15px;
-    width: 420px;
 }
 #vodkaWMAarticleStylePreparation p{
     color: #87746a;
@@ -1326,18 +1313,11 @@ aside{
 }
 
 #picsSlider{
-    position: absolute;
-    top: 505px;
-    right: -12px;
-    width: 550px;
-    height: 405px;
+    padding-bottom: 15px;
     border-bottom: 2px solid #e7e3e1;
+    margin-top: 15px;
 }
 #picsSlider ul{
-    position: absolute;
-    right: 17px;
-    height: 20px;
-    width: 496px;
     list-style-type: none;
 }
 #picsSlider ul li{
@@ -1352,23 +1332,16 @@ aside{
     font-weight: bold;
 }
 #picsSliderBigImg{
-    position: absolute;
-    top: 20px;
-    right: 17px;
+margin-top: 10px;
 }
 #picsSlider p{
-    position: absolute;
-    top: 344px;
-    right: 17px;
     direction: rtl;
     color: #ab9d96;
     font-size: 13px;
     font-family: ariel,Verdana,sans-serif;
 }
 #sendRecipes{
-    position: absolute;
-    top: 905px;
-    left: 6px;
+    position: relative;
     width: 550px;
     height: 83px;
 }
@@ -1395,7 +1368,7 @@ aside{
 }
 #sendRecipes ul{
     position: absolute;
-    left: 0px;
+    left: 10px;
     top: 16px;
     height: 18px;
     width: 200px;
