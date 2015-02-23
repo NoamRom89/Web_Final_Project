@@ -13,7 +13,7 @@
 header,main,footer,aside,nav,article,section{
     display: block;
 }
-@media only screen and(max-width: 480px) {
+@media only screen and(max-width: 640px) {
 
     body{
         font-family: ariel, Verdana, sans-serif;
@@ -90,7 +90,7 @@ header,main,footer,aside,nav,article,section{
     /*-------------------------------------------*/
 
 }
-@media only screen and (min-width: 481px)
+@media only screen and (min-width: 641px)
 {
 
     /*****          Wrappers            *****/
