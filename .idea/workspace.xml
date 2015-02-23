@@ -26,18 +26,33 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.28" vertical-offset="22092" max-vertical-offset="35904">
+            <state vertical-scroll-proportion="0.0" vertical-offset="22092" max-vertical-offset="35904">
               <caret line="1017" column="1" selection-start-line="1017" selection-start-column="1" selection-end-line="1017" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coldCoffe.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="coldCoffe.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coldCoffe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5061947" vertical-offset="1782" max-vertical-offset="3498">
-              <caret line="94" column="35" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
+            <state vertical-scroll-proportion="-6.793103" vertical-offset="1" max-vertical-offset="616">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="tag#nav#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#main#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#aside#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#footer#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="3.7931035" vertical-offset="462" max-vertical-offset="3652">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -46,14 +61,9 @@
       <file leaf-file-name="vodkaWatermellon.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vodkaWatermellon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8275862" vertical-offset="571" max-vertical-offset="1562">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2046" max-vertical-offset="3498">
               <caret line="93" column="31" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="31" />
-              <folding>
-                <element signature="tag#nav#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#main#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#nav#0;tag#main#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#footer#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,20 +71,18 @@
       <file leaf-file-name="recipes.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recipes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.413794" vertical-offset="990" max-vertical-offset="2640">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1540" max-vertical-offset="2772">
               <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-              <folding>
-                <element signature="tag#nav#0;tag#main#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="scripts.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1056">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.5074135" vertical-offset="264" max-vertical-offset="1056">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -83,8 +91,8 @@
       <file leaf-file-name="fienCookData.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/json/fienCookData.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.620689" vertical-offset="132" max-vertical-offset="902">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state vertical-scroll-proportion="-15.172414" vertical-offset="0" max-vertical-offset="1166">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -106,16 +114,16 @@
         <option value="$PROJECT_DIR$/conatctForm.html" />
         <option value="$PROJECT_DIR$/VacuumCookingMethodAarticle.html" />
         <option value="$PROJECT_DIR$/includes/fienCookData.json" />
-        <option value="$PROJECT_DIR$/json/fienCookData.json" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/vacuumCookingMethodAarticle.html" />
         <option value="$PROJECT_DIR$/systemArticles.html" />
-        <option value="$PROJECT_DIR$/includes/scripts.js" />
         <option value="$PROJECT_DIR$/fullRiceRecipe.html" />
         <option value="$PROJECT_DIR$/recipes.html" />
         <option value="$PROJECT_DIR$/vodkaWatermellon.html" />
         <option value="$PROJECT_DIR$/includes/style.css" />
         <option value="$PROJECT_DIR$/coldCoffe.html" />
+        <option value="$PROJECT_DIR$/json/fienCookData.json" />
+        <option value="$PROJECT_DIR$/includes/scripts.js" />
       </list>
     </option>
   </component>
@@ -151,7 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -200,13 +207,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/FinalAverageEve/json/pop_name.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -294,8 +302,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -633,34 +641,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.827586" vertical-offset="843" max-vertical-offset="1870">
-          <caret line="59" column="84" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
-          <folding>
-            <element signature="tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#nav#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#aside#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#footer#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemArticles.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4637168" vertical-offset="68" max-vertical-offset="1166">
           <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding>
-            <element signature="tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#nav#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#nav#0;tag#main#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#aside#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#nav#0;tag#aside#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#nav#0;tag#ul#0;tag#nav#0;tag#aside#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#nav#1;tag#aside#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#nav#2;tag#aside#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#footer#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,26 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35044247" vertical-offset="264" max-vertical-offset="2508">
           <caret line="40" column="44" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="44" />
-          <folding>
-            <element signature="tag#nav#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#nav#0;tag#main#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1056">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json/fienCookData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.620689" vertical-offset="132" max-vertical-offset="902">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,53 +659,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.69550174" vertical-offset="148" max-vertical-offset="1320">
           <caret line="98" column="47" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
-          <folding>
-            <element signature="tag#header#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#nav#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#main#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#nav#0;tag#main#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#section#0;tag#aside#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ul#0;tag#nav#0;tag#aside#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#footer#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recipes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.413794" vertical-offset="990" max-vertical-offset="2640">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1540" max-vertical-offset="2772">
           <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-          <folding>
-            <element signature="tag#nav#0;tag#main#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vodkaWatermellon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8275862" vertical-offset="571" max-vertical-offset="1562">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2046" max-vertical-offset="3498">
           <caret line="93" column="31" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="31" />
-          <folding>
-            <element signature="tag#nav#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#main#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#nav#0;tag#main#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#footer#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.28" vertical-offset="22092" max-vertical-offset="35904">
+        <state vertical-scroll-proportion="0.0" vertical-offset="22092" max-vertical-offset="35904">
           <caret line="1017" column="1" selection-start-line="1017" selection-start-column="1" selection-end-line="1017" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.7931035" vertical-offset="462" max-vertical-offset="3652">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/coldCoffe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5061947" vertical-offset="1782" max-vertical-offset="3498">
-          <caret line="94" column="35" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
+        <state vertical-scroll-proportion="-6.793103" vertical-offset="1" max-vertical-offset="616">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="tag#nav#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#main#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#aside#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#footer#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/fienCookData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.172414" vertical-offset="0" max-vertical-offset="1166">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5074135" vertical-offset="264" max-vertical-offset="1056">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding />
         </state>
       </provider>

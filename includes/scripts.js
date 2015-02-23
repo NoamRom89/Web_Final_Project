@@ -24,7 +24,7 @@ $(document).ready(function(){
             case "vodkaWatermellon.html":
                 indexInJson = 1;
                 break;
-            case "vodkaWatermellon.html":
+            case "coldCoffe.html":
                 indexInJson = 2;
                 break;
         }
