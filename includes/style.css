@@ -1229,11 +1229,11 @@ footer {
     }
     .maskRecipe {
         float: left;
+        height: 324px;
         width:496px;
         overflow: hidden;
     }
     .imagesRecipe img {
-        height: 324px;
         width:496px;
     }
     .images img {
@@ -1242,7 +1242,7 @@ footer {
 
     ul.images,ul.imagesRecipe {
         list-style-type: none;
-        position: relative;
+        position: relative;x
         top: 0px;
         left: 0px;
     }
