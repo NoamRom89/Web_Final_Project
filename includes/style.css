@@ -120,7 +120,7 @@ header,main,footer,aside,nav,article,section{
     }
     .topNav a {
         transition:all linear 0.15s;
-        color:#1fb25a;
+        color:#87746a;
     }
     .topNav a:hover {
         color: #1fb25a;
