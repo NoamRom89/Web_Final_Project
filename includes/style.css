@@ -2030,11 +2030,11 @@ footer {
         margin-top: 15px;
     }
 
-    #picsSlider ul:first-child {
+    #picsSlider>ul {
         list-style-type: none;
     }
 
-    #picsSlider ul:first-child li {
+    #picsSlider>ul li {
         float: right;
         direction: rtl;
         color: #87746a;
@@ -2043,7 +2043,7 @@ footer {
         margin-left: 16px;
     }
 
-    #picsSlider ul:first-child li:first-child {
+    #picsSlider>ul li:first-child {
         font-weight: bold;
     }
 
