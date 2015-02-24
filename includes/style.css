@@ -301,7 +301,9 @@ header,main,footer,aside,nav,article,section{
         padding:1%;
 
     }
-
+    ul.recipeTrigger li.selected{
+        display: block;
+    }
     ul.triggers li.selected {
         color: #9E9E9E;
     }
