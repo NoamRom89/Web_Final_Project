@@ -2056,7 +2056,7 @@ footer {
     .picsSliderBigImg {
         margin-top: 10px;
     }
-    .recipeTrigger{
+    .recipeTrigger li{
         display: none;
     }
 
