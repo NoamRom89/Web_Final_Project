@@ -261,6 +261,7 @@ header,main,footer,aside,nav,article,section{
     .maskRecipe {
         float: left;
         width:496px;
+        height: 324px;
         overflow: hidden;
     }
     .imagesRecipe img {
@@ -1232,6 +1233,7 @@ footer {
         overflow: hidden;
     }
     .imagesRecipe img {
+        height: 324px;
         width:496px;
     }
     .images img {
