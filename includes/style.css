@@ -10,6 +10,7 @@
     margin:0;
 }
 
+
 header,main,footer,aside,nav,article,section{
     display: block;
 }
@@ -223,7 +224,7 @@ header,main,footer,aside,nav,article,section{
 
         float: left;
         margin: 0 5px;
-        font: bold 28px arial;
+        font: bold 2.333em arial;
         cursor: pointer;
         color: #DBDBDB;
         padding: 10px;
