@@ -114,6 +114,10 @@ header,main,footer,aside,nav,article,section{
         text-decoration: none;
     }
 
+    .menu li:hover > a, .menu .current-item > a {
+        text-decoration:none;
+        color: #1fb25a;
+    }
     .topNav a:hover {
         color: #1fb25a;
     }
@@ -141,6 +145,10 @@ header,main,footer,aside,nav,article,section{
     .clearfix:after {
         display:block;
         clear:both;
+    }
+    .topNav .arrow {
+        font-size:11px;
+        line-height:0%;
     }
 
     .topNav li:hover .sub-menu {
