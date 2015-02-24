@@ -330,7 +330,7 @@ header,main,footer,aside,nav,article,section{
     ul.recipeTrigger li.selected {
         color: #9E9E9E;
     }
-    .control {
+    .control img{
         cursor:pointer;
     }
     .prev {
