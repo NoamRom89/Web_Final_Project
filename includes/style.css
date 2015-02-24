@@ -2261,4 +2261,8 @@ footer {
     .clear {
         clear: both;
     }
+
+    #cssmenu{
+        display: none;
+    }
 }
