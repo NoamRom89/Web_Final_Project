@@ -3,6 +3,7 @@
  */
 $(document).ready(function(){
 var triggers = $('ul.recipeTrigger li');
+    triggers = (triggers-2)/2;
 var images = $('ul.imagesRecipe li');
 var lastElem = triggers.length-1;
 var mask = $('.maskRecipe ul.imagesRecipe');

@@ -311,9 +311,8 @@ header,main,footer,aside,nav,article,section{
     }
 
     ul.recipeTrigger {
-        position: absolute;
-        top: 225px;
-        left: 80px;
+        position: relative;
+        top: -11px;
         list-style-type: none;
     }
 
@@ -1302,9 +1301,8 @@ footer {
     }
 
     ul.recipeTrigger {
-        position: absolute;
-        top: 225px;
-        left: 80px;
+        position: relative;
+        top: -11px;
         list-style-type: none;
     }
 
