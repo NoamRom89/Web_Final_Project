@@ -2,19 +2,28 @@
  * Created by Tom on 24/02/2015.
  */
 $(document).ready(function(){
+var triggers = $('ul.triggers li');
 var images = $('ul.images li');
-var lastElem = images.length-1;
+var lastElem = triggers.length-1;
 var mask = $('.mask ul.images');
 var imgWidth = images.width();
 var target;
 
-
+triggers.first().addClass('selected');
 mask.css('width', imgWidth*(lastElem+1) +'px');
 
 function sliderResponse(target) {
     mask.stop(true,false).animate({'left':'-'+ imgWidth*target +'px'},300);
+    triggers.removeClass('selected').eq(target).addClass('selected');
 }
 
+triggers.click(function() {
+    if ( !$(this).hasClass('selected') ) {
+        target = $(this).index();
+        sliderResponse(target);
+        resetTiming();
+    }
+});
 $('.next').click(function() {
     target = $('ul.triggers li.selected').index();
     target === lastElem ? target = 0 : target = target+1;

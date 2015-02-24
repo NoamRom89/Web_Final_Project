@@ -2028,6 +2028,9 @@ footer {
     .picsSliderBigImg {
         margin-top: 10px;
     }
+    .recipeTrigger{
+        display: none;
+    }
 
     #picsSlider p {
         direction: rtl;
