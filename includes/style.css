@@ -334,10 +334,10 @@ header,main,footer,aside,nav,article,section{
         cursor:pointer;
     }
     .prev {
-
+        cursor:pointer;
     }
     .next {
-
+        cursor:pointer;
     }
     /*-------------------------------------------*/
 /************************ article style *************************/
