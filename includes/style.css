@@ -258,7 +258,14 @@ header,main,footer,aside,nav,article,section{
         width: 65.5%;
         overflow: hidden;
     }
-
+    .maskRecipe {
+        float: left;
+        width:496px;
+        overflow: hidden;
+    }
+    .imagesRecipe img {
+        width:496px;
+    }
     .images img {
         width: 341px;
     }
@@ -296,7 +303,15 @@ header,main,footer,aside,nav,article,section{
     ul.triggers li.selected {
         color: #9E9E9E;
     }
+    .control {
+        cursor:pointer;
+    }
+    .prev {
 
+    }
+    .next {
+
+    }
     /*-------------------------------------------*/
 /************************ article style *************************/
     .h3contentWorld {
