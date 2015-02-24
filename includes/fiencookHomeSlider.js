@@ -2,10 +2,10 @@
  * Created by Tom on 24/02/2015.
  */
 $(document).ready(function(){
-    var triggers = $('ul.recipeTrigger>li');
-    var images = $('ul.imagesRecipe li');
+    var triggers = $('ul.fienHomeTrigger>li');
+    var images = $('ul.imagesFienHome li');
     var lastElem = triggers.length-1;
-    var mask = $('.maskRecipe ul.imagesRecipe');
+    var mask = $('.maskFienHome ul.imagesRecipe');
     var imgWidth = images.width();
     var target;
 
@@ -25,20 +25,20 @@ $(document).ready(function(){
         }
     });
     $('.next').click(function() {
-        target = $('ul.recipeTrigger li.selected').index();
+        target = $('ul.fienHomeTrigger li.selected').index();
         target === lastElem ? target = 0 : target = target+1;
         sliderResponse(target);
         resetTiming();
     });
     $('.prev').click(function() {
-        target = $('ul.recipeTrigger li.selected').index();
+        target = $('ul.fienHomeTrigger li.selected').index();
         lastElem = triggers.length-1;
         target === 0 ? target = lastElem : target = target-1;
         sliderResponse(target);
         resetTiming();
     });
     function sliderTiming() {
-        target = $('ul.recipeTrigger li.selected').index();
+        target = $('ul.fienHomeTrigger li.selected').index();
         target === lastElem ? target = 0 : target = target+1;
         sliderResponse(target);
     }

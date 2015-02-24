@@ -259,15 +259,28 @@ header,main,footer,aside,nav,article,section{
         overflow: hidden;
     }
     .maskRecipe {
+             direction: ltr;
+             float: left;
+             width:496px;
+             height: 324px;
+             overflow: hidden;
+         }
+    .imagesRecipe img {
+        width:503px;
+    }
+
+    .maskFienHome {
         direction: ltr;
         float: left;
-        width:496px;
+        width:503px;
         height: 324px;
         overflow: hidden;
     }
-    .imagesRecipe img {
+    .imagesFienHome img {
         width:496px;
     }
+
+
     .images img {
         width: 341px;
     }
@@ -326,10 +339,27 @@ header,main,footer,aside,nav,article,section{
         padding: 10px;
 
     }
-
-    ul.recipeTrigger li.selected {
+    ul.fienHomeTrigger li.selected {
         color: #9E9E9E;
     }
+
+    ul.fienHomeTrigger {
+        position: relative;
+        top: -11px;
+        list-style-type: none;
+    }
+
+    ul.fienHomeTrigger li {
+
+        float: left;
+        margin: 0 5px;
+        font: bold 28px arial;
+        cursor: pointer;
+        color: #DBDBDB;
+        padding: 10px;
+
+    }
+
     .control img{
         cursor:pointer;
     }
@@ -1320,6 +1350,39 @@ footer {
     ul.recipeTrigger li.selected {
         color: #9E9E9E;
     }
+
+    .maskFienHome {
+        direction: ltr;
+        float: left;
+        width:503px;
+        height: 324px;
+        overflow: hidden;
+    }
+    .imagesFienHome img {
+        width:496px;
+    }
+
+    ul.fienHomeTrigger li.selected {
+        color: #9E9E9E;
+    }
+
+    ul.fienHomeTrigger {
+        position: relative;
+        top: -11px;
+        list-style-type: none;
+    }
+
+    ul.fienHomeTrigger li {
+
+        float: left;
+        margin: 0 5px;
+        font: bold 28px arial;
+        cursor: pointer;
+        color: #DBDBDB;
+        padding: 10px;
+
+    }
+
     .control img{
         cursor:pointer;
     }
@@ -1861,7 +1924,7 @@ footer {
         margin-left: 16px;
     }
 
-    #fiencookArticleSlideshowImg {
+    .fiencookArticleSlideshowImg {
         margin-left: 30px;
     }
 
