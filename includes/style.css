@@ -178,12 +178,12 @@ header,main,footer,aside,nav,article,section{
 
     .sub-menu li {
         display:block;
+        text-align: center;
         font-size:1em;
     }
 
     .sub-menu li a {
         text-decoration: none;
-        text-align: center;
         padding: 8px 11px;
         display: block;
     }
