@@ -114,9 +114,13 @@ header,main,footer,aside,nav,article,section{
         text-decoration: none;
     }
 
-    .menu li:hover > a, .menu .current-item > a {
+    .topNav li:hover > a, .menu .current-item > a {
         text-decoration:none;
         color: #1fb25a;
+    }
+    .topNav a {
+        transition:all linear 0.15s;
+        color:#ffffff;
     }
     .topNav a:hover {
         color: #1fb25a;
