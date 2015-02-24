@@ -259,6 +259,7 @@ header,main,footer,aside,nav,article,section{
         overflow: hidden;
     }
     .maskRecipe {
+        direction: ltr;
         float: left;
         width:496px;
         height: 324px;
@@ -1228,6 +1229,7 @@ footer {
         overflow: hidden;
     }
     .maskRecipe {
+        direction: ltr;
         float: left;
         height: 324px;
         width:496px;
