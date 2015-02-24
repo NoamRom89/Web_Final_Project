@@ -751,7 +751,7 @@ footer {
         left: 116px;
         top: 147px;
         width: 573px;
-        height: 1500px;
+        /*height: 1500px;*/
         background-repeat: no-repeat;
     }
 
@@ -1578,7 +1578,7 @@ footer {
         top: 29px;
         right: 30px;
         width: 544px;
-        height: 1007px;
+        /*height: 1007px;*/
         border-top: 2px solid #87746a;
     }
 
