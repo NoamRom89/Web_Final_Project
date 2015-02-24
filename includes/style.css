@@ -140,6 +140,8 @@ header,main,footer,aside,nav,article,section{
         padding: 3px 6px 3px 6px;
         float: left;
         border-left: 1px dotted #c3b9b4;
+        display:inline-block;
+        position:relative;
     }
 
     #orangeLi {
