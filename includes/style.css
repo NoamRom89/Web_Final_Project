@@ -1238,14 +1238,14 @@ footer {
         width: 341px;
     }
 
-    ul.images {
+    ul.images,ul.imagesRecipe {
         list-style-type: none;
         position: relative;
         top: 0px;
         left: 0px;
     }
 
-    ul.images li {
+    ul.images li ,ul.imagesRecipe li{
         float: left;
     }
 
