@@ -308,9 +308,9 @@ header,main,footer,aside,nav,article,section{
         font-weight: bold;
         font-size: 1em;
         color: #87746a;
-        padding-left: 15px;
         padding-bottom: 14px;
-        margin-right: 55%;
+        width: 200px;
+        margin-right: 75%;
     }
 
     .articleLink a:link, .articleLink a:visited {
@@ -398,7 +398,7 @@ footer {
     display: none;
 }
 #footerSharingRE {
-
+    text-align: center;
 }
 
 #footerSharing a:link, #footerSharing a:visited {
