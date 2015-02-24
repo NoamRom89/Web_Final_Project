@@ -2,7 +2,7 @@
  * Created by Tom on 24/02/2015.
  */
 $(document).ready(function(){
-var triggers = $('ul.triggers li');
+var triggers = $('ul.recipeTrigger li');
 var images = $('ul.imagesRecipe li');
 var lastElem = triggers.length-1;
 var mask = $('.maskRecipe ul.imagesRecipe');
@@ -25,20 +25,20 @@ triggers.click(function() {
     }
 });
 $('.next').click(function() {
-    target = $('ul.triggers li.selected').index();
+    target = $('ul.recipeTrigger li.selected').index();
     target === lastElem ? target = 0 : target = target+1;
     sliderResponse(target);
     resetTiming();
 });
 $('.prev').click(function() {
-    target = $('ul.triggers li.selected').index();
+    target = $('ul.recipeTrigger li.selected').index();
     lastElem = triggers.length-1;
     target === 0 ? target = lastElem : target = target-1;
     sliderResponse(target);
     resetTiming();
 });
 function sliderTiming() {
-    target = $('ul.triggers li.selected').index();
+    target = $('ul.recipeTrigger li.selected').index();
     target === lastElem ? target = 0 : target = target+1;
     sliderResponse(target);
 }

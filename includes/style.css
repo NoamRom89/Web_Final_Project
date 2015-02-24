@@ -301,10 +301,34 @@ header,main,footer,aside,nav,article,section{
         padding:1%;
 
     }
-    ul.recipeTrigger li.selected{
-        display: block;
-    }
+
     ul.triggers li.selected {
+        color: #9E9E9E;
+    }
+
+    ul.recipeTrigger li.selected {
+        color: #9E9E9E;
+    }
+
+    ul.recipeTrigger {
+        position: absolute;
+        top: 225px;
+        left: 80px;
+        list-style-type: none;
+    }
+
+    ul.recipeTrigger li {
+
+        float: left;
+        margin: 0 5px;
+        font: bold 28px arial;
+        cursor: pointer;
+        color: #DBDBDB;
+        padding: 10px;
+
+    }
+
+    ul.recipeTrigger li.selected {
         color: #9E9E9E;
     }
     .control {
@@ -1256,11 +1280,11 @@ footer {
     }
 
     ul.triggers {
-        position: absolute;
-        top: 225px;
-        left: 80px;
-        list-style-type: none;
-    }
+            position: absolute;
+            top: 225px;
+            left: 80px;
+            list-style-type: none;
+        }
 
     ul.triggers li {
 
@@ -1273,7 +1297,29 @@ footer {
 
     }
 
-    ul.triggers li.selected {
+    ul.recipeTrigger li.selected {
+        color: #9E9E9E;
+    }
+
+    ul.recipeTrigger {
+        position: absolute;
+        top: 225px;
+        left: 80px;
+        list-style-type: none;
+    }
+
+    ul.recipeTrigger li {
+
+        float: left;
+        margin: 0 5px;
+        font: bold 28px arial;
+        cursor: pointer;
+        color: #DBDBDB;
+        padding: 10px;
+
+    }
+
+    ul.recipeTrigger li.selected {
         color: #9E9E9E;
     }
 
