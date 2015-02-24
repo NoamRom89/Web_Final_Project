@@ -1811,8 +1811,7 @@ footer {
         position: absolute;
         top: 29px;
         right: 30px;
-        width: 544px;
-        height: 704px;
+        padding-bottom: 10px;
         border-top: 2px solid #87746a;
         border-bottom: 2px solid #e7e3e1;
     }
@@ -1839,17 +1838,16 @@ footer {
 
     #fiencookArticleSlideshow {
         width: 532px;
-        height: 377px;
-        position: absolute;
-        top: 99px;
+        position: relative;
         right: 15px;
+        margin-top: 10px;
     }
 
     #fiencookArticleSlideshow ul {
-        position: absolute;
-        top: 17px;
+        position: relative;
         left: 15px;
         height: 20px;
+        margin-bottom: 10px;
         width: 517px;
         list-style-type: none;
     }
@@ -1864,16 +1862,10 @@ footer {
     }
 
     #fiencookArticleSlideshowImg {
-        position: absolute;
-        top: 35px;
-        left: 29px;
+        margin-left: 30px;
     }
 
     #fiencookArticleSlideshow p {
-        position: absolute;
-        top: 361px;
-        left: 326px;
-        width: 206px;
         direction: rtl;
         color: #87746a;
         font-size: 12.5px;
@@ -1882,7 +1874,6 @@ footer {
 
     #fiencookArticlePara {
         width: 495px;
-        margin-top: 394px;
         margin-left: 35px;
     }
 
