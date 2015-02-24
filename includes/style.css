@@ -2157,10 +2157,10 @@ footer {
     .picsSliderBigImg {
         margin-top: 10px;
     }
-    .recipeTrigger li{
+    .recipeTrigger li ,.fienHomeTrigger li{
         display: none;
     }
-    .recipeTrigger li.selected{
+    .recipeTrigger li.selected ,.fienHomeTrigger li.selected{
         display: block;
     }
     #picsSlider p {
