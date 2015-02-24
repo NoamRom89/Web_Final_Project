@@ -181,8 +181,8 @@ header,main,footer,aside,nav,article,section{
     #slideshowtext > p {
         font-family: ariel, Verdana, sans-serif;
         color: #ffffff;
-        font-size: 0.91666em;
-        padding: 16px 21px 21px 20px;
+        font-size: 0.61666em;
+        padding: 8% 8% 2% 9%;
 
     }
 
@@ -332,6 +332,8 @@ header,main,footer,aside,nav,article,section{
 
     .systemArticlePic {
         margin-top: 15px;
+        width: 35%;
+        height: 35%;
         margin-right: 15px;
         border: 2px solid #87746a;
         border-radius: 5px;
