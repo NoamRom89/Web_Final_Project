@@ -1320,6 +1320,15 @@ footer {
     ul.recipeTrigger li.selected {
         color: #9E9E9E;
     }
+    .control img{
+        cursor:pointer;
+    }
+    .prev {
+        cursor:pointer;
+    }
+    .next {
+        cursor:pointer;
+    }
 
     /*-------------------------------------------*/
     /*aside style*/
