@@ -5,7 +5,7 @@ $(document).ready(function(){
 var triggers = $('ul.triggers li');
 var images = $('ul.images li');
 var lastElem = triggers.length-1;
-var mask = $('.maskRecipe ul.images');
+var mask = $('.maskRecipe ul.imagesRecipe');
 var imgWidth = images.width();
 var target;
 
