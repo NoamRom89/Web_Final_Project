@@ -2,8 +2,7 @@
  * Created by Tom on 24/02/2015.
  */
 $(document).ready(function(){
-var triggers = $('ul.recipeTrigger li');
-    triggers = (triggers-2)/2;
+var triggers = $('ul.recipeTrigger>li');
 var images = $('ul.imagesRecipe li');
 var lastElem = triggers.length-1;
 var mask = $('.maskRecipe ul.imagesRecipe');
