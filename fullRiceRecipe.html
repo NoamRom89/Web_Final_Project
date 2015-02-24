@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>אורז מלא בלימון ועשבי תיבול</title>
     <script src="includes/jquery-2.1.1.min.js"></script>
+    <script src="includes/recipeSlider.js"></script>
     <script src="includes/scripts.js"></script>
     <link rel="stylesheet" href="includes/style.css">
 </head>
@@ -58,10 +59,19 @@
                 <section id="picsSlider">
                     <ul>
                         <li>2/6 דפדפו בין התמונות</li>
-                        <li><img src="images/rightBrownArrow.jpg"></li>
-                        <li><img src="images/leftBrownArrow.jpg"></li>
+                        <li><span class="control prev"><img src="images/rightBrownArrow.jpg"></span></li>
+                        <li><span class="control next"><img src="images/leftBrownArrow.jpg"></span></li>
                     </ul>
-                    <img src="images/picsSlider.jpg" id="picsSliderBigImg">
+                    <section class="mask">
+                        <ul class="images">
+                            <li><img src="images/picsSlider.jpg" class="picsSliderBigImg"></li>
+                            <li><img src="images/picsSlider.jpg" class="picsSliderBigImg"></li>
+                            <li><img src="images/picsSlider.jpg" class="picsSliderBigImg"></li>
+                            <li><img src="images/picsSlider.jpg" class="picsSliderBigImg"></li>
+                            <li><img src="images/picsSlider.jpg" class="picsSliderBigImg"></li>
+                        </ul>
+                    </section>
+
                     <p>הצעת הגשה: מעל עלים טריים.</p>
                 </section>
 
