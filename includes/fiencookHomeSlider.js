@@ -5,7 +5,7 @@ $(document).ready(function(){
     var triggers = $('ul.fienHomeTrigger>li');
     var images = $('ul.imagesFienHome li');
     var lastElem = triggers.length-1;
-    var mask = $('.maskFienHome ul.imagesRecipe');
+    var mask = $('.maskFienHome ul.imagesFienHome');
     var imgWidth = images.width();
     var target;
 
