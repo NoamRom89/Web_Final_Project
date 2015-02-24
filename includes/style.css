@@ -1906,14 +1906,13 @@ footer {
         margin-top: 10px;
     }
 
-    #fiencookArticleSlideshow ul {
+    #fiencookArticleSlideshow>ul {
         position: relative;
         left: 15px;
-        margin-bottom: 10px;
         list-style-type: none;
     }
 
-    #fiencookArticleSlideshow ul li {
+    #fiencookArticleSlideshow>ul li {
         float: right;
         direction: rtl;
         color: #87746a;
@@ -1923,7 +1922,7 @@ footer {
     }
 
     .fiencookArticleSlideshowImg {
-        margin-left: 30px;
+
     }
 
     #fiencookArticleSlideshow p {
