@@ -2059,7 +2059,9 @@ footer {
     .recipeTrigger li{
         display: none;
     }
-
+    .recipeTrigger li.selected{
+        display: block;
+    }
     #picsSlider p {
         direction: rtl;
         color: #ab9d96;
