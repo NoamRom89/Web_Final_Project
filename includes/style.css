@@ -165,7 +165,7 @@ header,main,footer,aside,nav,article,section{
         margin:0 10px 0 10px;
     }
     .sub-menu {
-        width: 160%;
+        width: 180%;
         padding: 5px 0px;
         position: absolute;
         top: 35%;
@@ -182,12 +182,14 @@ header,main,footer,aside,nav,article,section{
     }
 
     .sub-menu li a {
-        padding:10px 30px;
-        display:block;
+        text-decoration: none;
+        text-align: center;
+        padding: 8px 11px;
+        display: block;
     }
 
     .sub-menu li a:hover, .sub-menu .current-item a {
-        background:#3e3436;
+        background:#ffffff;
     }
     #topNav{
         display:none;
