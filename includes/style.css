@@ -1297,14 +1297,14 @@ footer {
         width: 341px;
     }
 
-    ul.images,ul.imagesRecipe {
+    ul.images,ul.imagesRecipe,ul.imagesFienHome {
         list-style-type: none;
         position: relative;
         top: 0px;
         left: 0px;
     }
 
-    ul.images li ,ul.imagesRecipe li{
+    ul.images li ,ul.imagesRecipe li, ul.imagesFienHome li{
         float: left;
     }
 
