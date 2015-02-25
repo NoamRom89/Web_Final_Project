@@ -737,8 +737,8 @@ footer {
         font-family: ariel, Verdana, sans-serif;
     }
 
-    .mainNavLastLi a:link, .mainNavLastLi a:visited {
-        color: #1fb25a !important;
+    #mainNavLastLi a:link, #mainNavLastLi a:visited {
+        color: #1fb25a;
     }
 
     #greenArrowImg {
@@ -1762,8 +1762,8 @@ footer {
         color: #1fb25a;
     }
 
-    .mainNavLastLiNotBold a:link, .mainNavLastLiNotBold a:visited {
-        color: #1fb25a !important;
+    #mainNavLastLiNotBold a:link, #mainNavLastLiNotBold a:visited {
+        color: #1fb25a;
         margin-right: 4px;
     }
 
