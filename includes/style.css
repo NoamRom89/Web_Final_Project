@@ -100,6 +100,14 @@ header,main,footer,aside,nav,article,section{
 
     /*-------------------------------------------*/
 
+
+    #appMenuImg{
+        width:10px;
+        height: 10px;
+    }
+
+
+
     /*****          Top Nav style           *****/
     #responsiveTopNav{
 
@@ -659,6 +667,9 @@ footer {
         background-image: url("../images/logo.png");
     }
 
+    #appMenu{
+        display: none;
+    }
     /*-------------------------------------------*/
     /*****          Top Nav style           *****/
     .topNav {
