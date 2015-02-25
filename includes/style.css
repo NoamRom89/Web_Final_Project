@@ -101,6 +101,7 @@ header,main,footer,aside,nav,article,section{
     /*-------------------------------------------*/
 
     #appMenu{
+        direction: rtl;
         position: absolute;
         right: 10%;
     }
@@ -110,6 +111,7 @@ header,main,footer,aside,nav,article,section{
     }
     #appMenuWidth{
         width:120px;
+        right:0px;
     }
 
 
