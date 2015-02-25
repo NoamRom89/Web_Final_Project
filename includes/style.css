@@ -2000,9 +2000,8 @@ footer {
 
     #formMsgField {
         width: 253px;
-        height: 66px !important;
+        height: 66px;
         direction: rtl;
-        height: 21px;
         font-family: ariel, Verdana, sans-serif;
         color: #87746a;
         font-size: 13px;
