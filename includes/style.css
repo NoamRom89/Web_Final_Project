@@ -108,7 +108,9 @@ header,main,footer,aside,nav,article,section{
         width:10px;
         height: 10px;
     }
-
+    #appMenuWidth{
+        width:120px;
+    }
 
 
     /*****          Top Nav style           *****/
