@@ -101,7 +101,8 @@ header,main,footer,aside,nav,article,section{
     /*-------------------------------------------*/
 
     #appMenu{
-        position: relative;
+        position: absolute;
+        right: 10%;
     }
     #appMenuImg{
         width:10px;
@@ -112,7 +113,7 @@ header,main,footer,aside,nav,article,section{
 
     /*****          Top Nav style           *****/
     #responsiveTopNav{
-
+        height: 45px;
     }
     .topNav {
         direction: rtl;
