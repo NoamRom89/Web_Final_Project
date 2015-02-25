@@ -104,9 +104,10 @@ header,main,footer,aside,nav,article,section{
         direction: rtl;
         position: absolute;
         right: 10%;
+        border:none;
     }
     #appMenuImg{
-        
+
     }
     #appMenuWidth{
         width:120px;
