@@ -1804,7 +1804,7 @@ footer {
     }
 
     .orange {
-        color: #f26631;
+        color: #f26631 !important;
         text-decoration: none;
     }
 
