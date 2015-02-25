@@ -100,7 +100,9 @@ header,main,footer,aside,nav,article,section{
 
     /*-------------------------------------------*/
 
-
+    #appMenu{
+        position: relative;
+    }
     #appMenuImg{
         width:10px;
         height: 10px;
