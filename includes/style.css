@@ -101,7 +101,7 @@ header,main,footer,aside,nav,article,section{
     /*-------------------------------------------*/
 
     /*****          Top Nav style           *****/
-    #cssmenu{
+    #responsiveTopNav{
 
     }
     .topNav {
@@ -112,7 +112,7 @@ header,main,footer,aside,nav,article,section{
         font-size: 1.083em;
     }
 
-    .topNav a:link, #topNav a:visited {
+    .topNav a:link, .topNav a:visited {
         color: #87746a;
         text-decoration: none;
     }
@@ -661,7 +661,7 @@ footer {
 
     /*-------------------------------------------*/
     /*****          Top Nav style           *****/
-    #topNav {
+    .topNav {
         direction: rtl;
         position: absolute;
         top: 108px;
@@ -674,26 +674,26 @@ footer {
         font-size: 13px;
     }
 
-    #topNav a:link, #topNav a:visited {
+    .topNav a:link, .topNav a:visited {
         color: #87746a;
         text-decoration: none;
     }
 
-    #topNav a:hover {
+    .topNav a:hover {
         color: #1fb25a;
     }
 
-    #topNav a:active {
+    .topNav a:active {
         color: #42ca44;
     }
 
-    #topNav ul {
+    .topNav ul {
         list-style-type: none;
         margin-top: 13px;
 
     }
 
-    #topNav ul li {
+    .topNav ul li {
         padding: 3px 6px 3px 6px;
         float: left;
         border-left: 1px dotted #c3b9b4;
@@ -2458,7 +2458,7 @@ footer {
         clear: both;
     }
 
-    #cssmenu{
+    #responsiveTopNav{
         display: none;
     }
 }
