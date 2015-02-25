@@ -705,19 +705,19 @@ footer {
 
     /*-------------------------------------------*/
     /*****          Nav of main style           *****/
-    #mainNav {
+    .mainNav {
         direction: rtl;
         position: absolute;
         top: 10px;
         right: 30px;
     }
 
-    #mainNav a:link, #mainNav a:visited {
+    .mainNav a:link, .mainNav a:visited {
         color: #87746a;
         text-decoration: none;
     }
 
-    #mainNav a:hover {
+    .mainNav a:hover {
         color: #1fb25a;
     }
 
@@ -725,11 +725,11 @@ footer {
         color: #f26631;
     }
 
-    #mainNav ul {
+    .mainNav ul {
         list-style-type: none;
     }
 
-    #mainNav ul li {
+    .mainNav ul li {
         font-size: 11px;
         float: right;
         margin: 1px 3px 3px 1px;
