@@ -148,7 +148,7 @@ header,main,footer,aside,nav,article,section{
     }
 
     #orangeLi {
-        color: #ffae3b !important;
+        color: #ffae3b;
     }
 
     .clearfix:after {
@@ -700,7 +700,7 @@ footer {
     }
 
     #orangeLi {
-        color: #ffae3b !important;
+        color: #ffae3b;
     }
 
     /*-------------------------------------------*/
