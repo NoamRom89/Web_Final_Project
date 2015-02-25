@@ -1553,7 +1553,7 @@ footer {
         margin-left: 1px;
     }
 
-    #asideNavTopContentvodkaWatermellon {
+    .asideNavTopContentvodkaWatermellon {
         direction: rtl;
         font-family: ariel, Verdana, sans-serif;
         color: #87746a;
@@ -1562,21 +1562,21 @@ footer {
         border-top: 2px solid #87746a;
     }
 
-    #asideNavTopContentvodkaWatermellon a:link, #asideNavTopContentvodkaWatermellon a:visited {
+    .asideNavTopContentvodkaWatermellon a:link, .asideNavTopContentvodkaWatermellon a:visited {
         color: #87746a;
         text-decoration: none;
     }
 
-    #asideNavTopContentvodkaWatermellon a:hover {
+    .asideNavTopContentvodkaWatermellon a:hover {
         color: #f26631;
     }
 
-    #asideNavTopContentvodkaWatermellon > ul:first-child {
+    .asideNavTopContentvodkaWatermellon > ul:first-child {
         list-style-type: none;
         padding-top: 3px;
     }
 
-    #asideNavTopContentvodkaWatermellon > ul > li {
+    .asideNavTopContentvodkaWatermellon > ul > li {
         padding-top: 5px;
         padding-right: 12px;
     }
@@ -1804,7 +1804,7 @@ footer {
     }
 
     .orange {
-        color: #f26631 !important;
+        color: #f26631;
         text-decoration: none;
     }
 
