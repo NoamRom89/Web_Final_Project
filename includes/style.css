@@ -105,9 +105,10 @@ header,main,footer,aside,nav,article,section{
         position: absolute;
         right: 10%;
     }
-    #appMenuBorderNone{
+    #appMenuBorderNone , #appMenuBorderNone li{
         border:none;
     }
+
     #appMenuWidth{
         width:120px;
         right:0px;
