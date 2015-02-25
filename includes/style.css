@@ -1773,8 +1773,8 @@ footer {
 
     /*******************************************************************************/
     /******         Recipes Page Style         ********/
-    .orangeRecipesLogo {
-        color: #f26631 !important;
+    #orangeRecipesLogo {
+        color: #f26631;
     }
 
     #topNavRecipeHover a:hover {
