@@ -667,10 +667,10 @@ footer {
     }
 
     #logo {
-        width: 234px;
+        width: 224px;
         height: 107px;
         position: absolute;
-        left: 116px;
+        left: 103px;
         background-image: url("../images/logo.png");
     }
 
@@ -715,6 +715,10 @@ footer {
         padding: 3px 6px 3px 6px;
         float: left;
         border-left: 1px dotted #c3b9b4;
+    }
+
+    .topNav ul li:first-child {
+        border-left: none;
     }
 
     #orangeLi {
@@ -1989,7 +1993,7 @@ footer {
         top: 22px;
     }
 
-    #contactFormAarticleStyle h2 {
+    #contactFormAarticleStyle h1 {
         position: absolute;
         top: 19px;
         right: 13px;
@@ -2192,13 +2196,14 @@ footer {
     #sendRecipes a:link, #sendRecipes a:visited {
         color: #87746a;
         text-decoration: none;
+        font-weight: bold;
     }
 
     #sendRecipes a:hover {
         color: #f26631;
     }
 
-    #sendRecipes p {
+    #sendRecipes > a:first-child {
         width: 95px;
         height: 18px;
         position: absolute;
@@ -2218,22 +2223,28 @@ footer {
         left: 10px;
         top: 16px;
         height: 18px;
-        width: 200px;
         list-style-type: none;
     }
 
-    #sendRecipes ul li {
+    #sendRecipes  li {
         float: right;
         direction: rtl;
         color: #87746a;
         font-size: 12px;
         font-family: ariel, Verdana, sans-serif;
-        margin: 0 10px 0 10px;
     }
 
-    #sendRecipes ul img {
-        float: right;
+    #sendRecipes ul li:first-child {
+        margin-left: 15px;
+    }
+
+    #sendRecipes  ul li:nth-child(4) {
+        margin-right: 20px;
         margin-left: 3px;
+    }
+    #sendRecipes ul li:nth-child(3) {
+        margin-left: 5px;
+        margin-right: 3px
     }
 
     #sendRecipesUlLiFirstChild {
@@ -2293,7 +2304,7 @@ footer {
         width: 524px;
         height: 124px;
         position: absolute;
-        top: 259px;
+        top: 270px;
     }
 
     .contentPicture {
@@ -2304,7 +2315,7 @@ footer {
     #articleContentStyle3 p {
         position: absolute;
         right: 125px;
-        top: 15px;
+        top: 10px;
         direction: rtl;
         font-family: ariel, Verdana, sans-serif;
         font-size: 12px;
@@ -2315,7 +2326,7 @@ footer {
     #articleContentStyle3Img {
         position: absolute;
         right: 6px;
-        top: 10px;
+        top: 2px;
     }
 
     .pGreen {
