@@ -97,6 +97,28 @@ header,main,footer,aside,nav,article,section{
         background-image: url("../images/logo.png");
         background-repeat: no-repeat;
     }
+    /*******************************************************************/
+    /*marquee style*/
+
+    #marqueeDisplay{
+        background-color: #00b25a;
+        height: 22px;
+        width: 534px;
+        overflow:hidden;
+        position:relative;
+    }
+    #marqueeText{
+    direction: rtl;
+        position: absolute;
+        top: 7px;
+        background-color: #00b25a;
+        font-family: ariel, Verdana, sans-serif;
+        color: #ffffff;
+        padding-top: 2px;
+        text-align: center;
+        font-size: 13px;
+    }
+
 
     /*-------------------------------------------*/
 
@@ -832,19 +854,7 @@ footer {
         height: 508px;
     }
 
-    #tickerText {
-        direction: rtl;
-        position: absolute;
-        top: 7px;
-        height: 22px;
-        width: 534px;
-        background-color: #00b25a;
-        font-family: ariel, Verdana, sans-serif;
-        color: #ffffff;
-        padding-top: 2px;
-        text-align: center;
-        font-size: 13px;
-    }
+
 
     #slideshow {
         position: absolute;
