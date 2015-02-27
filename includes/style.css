@@ -1093,7 +1093,7 @@ footer {
         direction: rtl;
         font-family: ariel, Verdana, sans-serif;
         color: #87746a;
-        margin-right:24px;
+        margin-right:10px;
         font-size: 13px;
     }
 
@@ -1107,7 +1107,7 @@ footer {
         list-style-type: none;
         padding-bottom: 5px;
         width: 127px;
-        border-bottom: 1px solid #d2cbc7;
+        border-bottom: 1px dotted #d2cbc7;
     }
 
     #asideNavCenter1 a:link, #asideNavCenter1 a:visited {
