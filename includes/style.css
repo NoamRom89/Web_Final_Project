@@ -1097,11 +1097,11 @@ footer {
         font-size: 13px;
     }
 
-    #asideNavCenter1 > ul {
+   /* #asideNavCenter1 > ul {
         margin-right: 17px;
-    }
+    }*/
 
-    #asideNavCenter1 > ul > li {
+    #asideNavCenter1 > li {
         padding-top: 5px;
         margin-left: 1px;
         list-style-type: none;
