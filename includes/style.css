@@ -1311,6 +1311,7 @@ footer {
         height: 324px;
         width:496px;
         overflow: hidden;
+        margin: -15px 0 10px 35px;
     }
     .imagesRecipe img {
         width:496px;
