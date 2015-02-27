@@ -14,7 +14,7 @@ $(document).ready(function() {
             }
             else {
                 time = (parseInt(b.position().left, 10) - end_pos) *
-                (10000 / (start_pos - end_pos)); // Increase or decrease speed by changing value 10000
+                (8000 / (start_pos - end_pos)); // Increase or decrease speed by changing value 10000
                 b.animate({
                     'left': -width
                 }, time, 'linear', function () {
@@ -29,16 +29,16 @@ $(document).ready(function() {
         });
         scroll(a, b);
 
-        b.mouseenter(function () {     // Remove these lines
-            b.stop();                 //
-            b.clearQueue();           // if you don't want
-        });                           //
-        b.mouseleave(function () {     // marquee to pause
-            scroll(a, b);             //
-        });                           // on mouse over
+        b.mouseenter(function () {     // Marquee pause on mouse over
+            b.stop();
+            b.clearQueue();
+        });
+        b.mouseleave(function () {
+            scroll(a, b);
+        });
 
     }
 
-        marquee($('#marqueeDisplay'), $('#marqueeText'));  //Enter name of container element & marquee element
+        marquee($('#marqueeDisplay'), $('#marqueeText'));
 
 });
