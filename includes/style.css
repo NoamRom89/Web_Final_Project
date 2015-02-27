@@ -1115,10 +1115,10 @@ footer {
         text-decoration: none;
     }
 
-   /* #asideNavCenter1 li:before {
+   #asideNavCenter1 li:before {
         content: "• ";
         color: #87746a;
-    }*/
+    }
 
     .currentArticleGreen a:link, .currentArticleGreen a:visited {
         color: #00b25a !important;
