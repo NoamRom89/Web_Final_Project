@@ -110,7 +110,6 @@ header,main,footer,aside,nav,article,section{
     #marqueeText{
     direction: rtl;
         position: absolute;
-        top: 7px;
         background-color: #00b25a;
         font-family: ariel, Verdana, sans-serif;
         color: #ffffff;
