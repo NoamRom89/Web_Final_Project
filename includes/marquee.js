@@ -38,7 +38,7 @@ $(document).ready(function() {
         });                           // on mouse over
 
     }
-    
+
         marquee($('#marqueeDisplay'), $('#marqueeText'));  //Enter name of container element & marquee element
 
 });
