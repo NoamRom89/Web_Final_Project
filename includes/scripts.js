@@ -23,18 +23,36 @@ $(document).ready(function(){
             //Dynamic data for Vaccum cooking article - Only title
             $('#vaccumAarticleStyle h2').text(data.systemArticles.articleTitles[articleTitleIndex].title);
         }else {         // its a recipe page
-
-            //Dynamic data for Recipes - Only title,img,description and recipes
             var i = 0;
             var tempIndex = parseInt(indexInJson);
+            var indexForaside = 0;
             var nextPage = tempIndex + 1;
             var backPage = tempIndex - 1;
+            // create aside menu - dynamic
+
+                 while (data.recipes[indexForaside] != null) {
+                     if(indexForaside == tempIndex){
+                         $('#ulInnerRecipesTermo').append(
+                             '<li><a href="recipePage.html?recipeNum=' + indexForaside + '" class="orange">' + data.recipes[indexForaside].title + '</a></li>'
+                         );
+                     }else {
+                         $('#ulInnerRecipesTermo').append(
+                             '<li><a href="recipePage.html?recipeNum=' + indexForaside + '">' + data.recipes[indexForaside].title + '</a></li>'
+                         );
+                     }
+                     indexForaside++;
+
+                 }
+
+            //Dynamic data for Recipes - Only title,img,description and recipes
+
             $('.articleStyle h1').text(data.recipes[indexInJson].title);
             $('.articleStyle > img').attr("src", data.recipes[indexInJson].image);
             $('.articleStyle > p').text(data.recipes[indexInJson].description);
             for (i = 0; i < data.recipes[indexInJson].recipe.length; i++) {
                 $('.articleStyleRecipes').append("<p>" + data.recipes[indexInJson].recipe[i] + "</p>");
             }
+            // next and back pages bottom menu
             if (tempIndex == 0) {
                 $('#backPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '">הקודם</a>');
                 if (data.recipes[nextPage] != null) {
