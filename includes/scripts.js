@@ -38,18 +38,18 @@ $(document).ready(function(){
         if (tempIndex == 0){
             $('#backPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '">הקודם</a>');
             if (data.recipes[nextPage] != null) {
-                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '>הבא</a>');
+                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '">הבא</a>');
             }else{
-                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '>הבא</a>');
+                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '">הבא</a>');
             }
 
         }else {
             $('#backPage').html('<a href="recipePage.html?recipeNum=' + (backPage) + '">הקודם</a>');
 
             if (data.recipes[nextPage] != null) {
-                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '>הבא</a>');
+                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '">הבא</a>');
             }else{
-                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '>הבא</a>');
+                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '">הבא</a>');
             }
         }
 
