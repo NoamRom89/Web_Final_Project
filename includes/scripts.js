@@ -21,7 +21,7 @@ $(document).ready(function(){
     $.getJSON("json/fienCookData.json",function(data){
         if (articleTitleIndex != null) {        // its a article page
             //Dynamic data for Vaccum cooking article - Only title
-            $('#vaccumAarticleStyle h2').text(data.systemArticles.articleTitles[articleTitleIndex].title);
+            $('#vaccumAarticleStyle h1').text(data.systemArticles.articleTitles[articleTitleIndex].title);
 
             // create article aside menu- dynamic
             var indexForArticle = 0;
