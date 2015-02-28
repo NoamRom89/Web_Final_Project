@@ -36,11 +36,21 @@ $(document).ready(function(){
                 $('.articleStyleRecipes').append("<p>"+ data.recipes[indexInJson].recipe[i] +"</p>");
             }
         if (indexInJson == 0){
-            $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '>הבא</a>');
-            $('#backPage').html('<a href="recipePage.html?recipeNum=' + (indexInJson) + '">הקודם</a>');
+            $('#backPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '">הקודם</a>');
+            if (data.recipes[nextPage] != null) {
+                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '>הבא</a>');
+            }else{
+                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '>הבא</a>');
+            }
+
         }else {
             $('#backPage').html('<a href="recipePage.html?recipeNum=' + (backPage) + '">הקודם</a>');
-            $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '">הבא</a>');
+
+            if (data.recipes[nextPage] != null) {
+                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '>הבא</a>');
+            }else{
+                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '>הבא</a>');
+            }
         }
 
     });
