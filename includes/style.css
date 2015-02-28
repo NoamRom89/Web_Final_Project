@@ -1698,8 +1698,8 @@ footer {
         top: 29px;
         right: 30px;
         width: 544px;
-        /*height: 1007px;*/
         border-top: 2px solid #87746a;
+        height: 487px;
     }
 
     #articleHeader {
@@ -2286,14 +2286,13 @@ footer {
     }
 
     /*********************************************************************************/
-    #articleContentStyle1 {
+    .contentArticle article {
         width: 524px;
         height: 124px;
-        position: absolute;
-        top: 22px;
+        position: relative;
     }
 
-    #articleContentStyle1 p {
+    .contentArticle article p {
         position: absolute;
         right: 125px;
         top: 15px;
@@ -2304,60 +2303,13 @@ footer {
         color: #87746a;
     }
 
-    #articleContentStyle1Img {
+    .articleContentStyleImg {
         margin-top: 20px;
         margin-right: 6px;
     }
-
-    #articleContentStyle2 {
-        width: 524px;
-        height: 124px;
-        position: absolute;
-        top: 146px;
-    }
-
-    #articleContentStyle2 p {
-        position: absolute;
-        right: 125px;
-        top: 15px;
-        direction: rtl;
-        font-family: ariel, Verdana, sans-serif;
-        font-size: 12px;
-        font-weight: bold;
-        color: #87746a;
-    }
-
-    #articleContentStyle2Img {
-        margin-top: 18px;
-        margin-right: 6px;
-    }
-
-    #articleContentStyle3 {
-        width: 524px;
-        height: 124px;
-        position: absolute;
-        top: 270px;
-    }
-
     .contentPicture {
         border: 2px solid #87746a;
         border-radius: 5px;
-    }
-
-    #articleContentStyle3 p {
-        position: absolute;
-        right: 125px;
-        top: 16px;
-        direction: rtl;
-        font-family: ariel, Verdana, sans-serif;
-        font-size: 12px;
-        font-weight: bold;
-        color: #87746a;
-    }
-
-    #articleContentStyle3Img {
-        margin-right: 6px;
-        margin-top: 19px;
     }
 
     .pGreen {
