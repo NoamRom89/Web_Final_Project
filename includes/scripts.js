@@ -26,7 +26,8 @@ $(document).ready(function(){
 
         //Dynamic data for Recipes - Only title,img,description and recipes
         var i=0;
-
+        var nextPage = indexInJson+1;
+        var backPage = indexInJson-1;
             $('.articleStyle h1').text(data.recipes[indexInJson].title);
             $('.articleStyle > img').attr("src",data.recipes[indexInJson].image);
             $('.articleStyle > p').text(data.recipes[indexInJson].description);
@@ -34,11 +35,11 @@ $(document).ready(function(){
                 $('.articleStyleRecipes').append("<p>"+ data.recipes[indexInJson].recipe[i] +"</p>");
             }
         if (indexInJson == 0){
-            $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (indexInJson + 1) + '>הבא</a>');
+            $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '>הבא</a>');
             $('#backPage').html('<a href="recipePage.html?recipeNum=' + (indexInJson) + '">הקודם</a>');
         }else {
-            $('#backPage').html('<a href="recipePage.html?recipeNum=' + (indexInJson - 1) + '">הקודם</a>');
-            $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (indexInJson + 1) + '">הבא</a>');
+            $('#backPage').html('<a href="recipePage.html?recipeNum=' + (backPage) + '">הקודם</a>');
+            $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '">הבא</a>');
         }
 
     });
