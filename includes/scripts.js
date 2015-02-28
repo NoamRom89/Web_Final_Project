@@ -26,8 +26,9 @@ $(document).ready(function(){
 
         //Dynamic data for Recipes - Only title,img,description and recipes
         var i=0;
-        var nextPage = indexInJson+1;
-        var backPage = indexInJson-1;
+        var tempIndex = parseInt(indexInJson);
+        var nextPage = tempIndex+1;
+        var backPage = tempIndex-1;
             $('.articleStyle h1').text(data.recipes[indexInJson].title);
             $('.articleStyle > img').attr("src",data.recipes[indexInJson].image);
             $('.articleStyle > p').text(data.recipes[indexInJson].description);
