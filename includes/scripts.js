@@ -34,10 +34,10 @@ $(document).ready(function(){
                 $('.articleStyleRecipes').append("<p>"+ data.recipes[indexInJson].recipe[i] +"</p>");
             }
         if (indexInJson == 0){
-            $('#nextPage').html('<a href="recipePage.html?recipeNum=' + indexInJson + 1 + '>הבא</a>');
+            $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (indexInJson + 1) + '>הבא</a>');
         }else {
-            $('#backPage').html('<a href="recipePage.html?recipeNum=' + indexInJson - 1 + '">הקודם</a>');
-            $('#nextPage').html('<a href="recipePage.html?recipeNum=' + indexInJson + 1 + '">הבא</a>');
+            $('#backPage').html('<a href="recipePage.html?recipeNum=' + (indexInJson - 1) + '">הקודם</a>');
+            $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (indexInJson + 1) + '">הבא</a>');
         }
 
     });
