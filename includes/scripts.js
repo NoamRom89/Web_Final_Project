@@ -25,6 +25,9 @@ $(document).ready(function(){
 
             // create article aside menu- dynamic
             var indexForArticle = 0;
+            var tempArticleIndex = parseInt(articleTitleIndex);
+            var next = tempArticleIndex+1;
+            var back = tempArticleIndex-1;
             while (data.systemArticles.articleTitles[indexForArticle] != null){
                 if(indexForArticle == articleTitleIndex){
                     $('#asideNavCenter1').append(
@@ -37,6 +40,26 @@ $(document).ready(function(){
                 }
                 indexForArticle ++;
             }
+
+            // next and back pages bottom menu
+            if (tempArticleIndex == 0) {
+                $('#vaccumAarticleStyleNextBeforeArticleBefore').html('<a href="articlePage.html?articleNum=' + (tempArticleIndex) + '">למאמר הקודם</a>');
+                if (data.recipes[next] != null) {
+
+                    $('#vaccumAarticleStyleNextBeforeArticleAfter').html('<a href="articlePage.html?articleNum=' + (next) + '">למאמר הבא</a>');
+                } else {
+                    $('#vaccumAarticleStyleNextBeforeArticleAfter').html('<a href="articlePage.html?articleNum=' + (tempArticleIndex) + '">למאמר הבא</a>');
+                }
+
+            } else {
+                $('#vaccumAarticleStyleNextBeforeArticleBefore').html('<a href="articlePage.html?articleNum=' + (back) + '">למאמר הקודם</a>');
+                if (data.recipes[next] != null) {
+                    $('#vaccumAarticleStyleNextBeforeArticleAfter').html('<a href="articlePage.html?articleNum=' + (next) + '">למאמר הבא</a>');
+                } else {
+                    $('#vaccumAarticleStyleNextBeforeArticleAfter').html('<a href="articlePage.html?articleNum=' + (tempArticleIndex) + '">למאמר הבא</a>');
+                }
+            }
+
 
 
         }else {         // its a recipe page
