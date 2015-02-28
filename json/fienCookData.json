@@ -1,10 +1,17 @@
 {
     "systemArticles":{
-        "titles":{
-            "vaccumArticleTitle":"שיטת הבישול בואקום הולכת ותופסת מקום מרכזי בעולם הבישול",
-            "secondArticleTitle":"",
-            "thirdArticleTitle":""
-        }
+        "articleTitles":[
+            {
+                "title": "שיטת הבישול בואקום הולכת ותופסת מקום מרכזי בעולם הבישול"
+            },
+            {
+                "title": ""
+            },
+            {
+                "title": ""
+            }
+
+            ]
     },
 
     "recipes":[

@@ -14,44 +14,44 @@ $(document).ready(function(){
             }
         }
     };
-
+    var articleTitleIndex = Splitter("articleNum");
     var indexInJson = Splitter("recipeNum");
     console.log(indexInJson);
 
     $.getJSON("json/fienCookData.json",function(data){
-        
-        //Dynamic data for Vaccum cooking article - Only title
-        $('#vaccumAarticleStyle h2').text(data.systemArticles.titles.vaccumArticleTitle);
+        if (articleTitleIndex != null) {        // its a article page
+            //Dynamic data for Vaccum cooking article - Only title
+            $('#vaccumAarticleStyle h2').text(data.systemArticles.articleTitles[articleTitleIndex].title);
+        }else {         // its a recipe page
 
-
-        //Dynamic data for Recipes - Only title,img,description and recipes
-        var i=0;
-        var tempIndex = parseInt(indexInJson);
-        var nextPage = tempIndex+1;
-        var backPage = tempIndex-1;
+            //Dynamic data for Recipes - Only title,img,description and recipes
+            var i = 0;
+            var tempIndex = parseInt(indexInJson);
+            var nextPage = tempIndex + 1;
+            var backPage = tempIndex - 1;
             $('.articleStyle h1').text(data.recipes[indexInJson].title);
-            $('.articleStyle > img').attr("src",data.recipes[indexInJson].image);
+            $('.articleStyle > img').attr("src", data.recipes[indexInJson].image);
             $('.articleStyle > p').text(data.recipes[indexInJson].description);
-            for(i = 0;i < data.recipes[indexInJson].recipe.length; i++  ){
-                $('.articleStyleRecipes').append("<p>"+ data.recipes[indexInJson].recipe[i] +"</p>");
+            for (i = 0; i < data.recipes[indexInJson].recipe.length; i++) {
+                $('.articleStyleRecipes').append("<p>" + data.recipes[indexInJson].recipe[i] + "</p>");
             }
-        if (tempIndex == 0){
-            $('#backPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '">הקודם</a>');
-            if (data.recipes[nextPage] != null) {
-                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '">הבא</a>');
-            }else{
-                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '">הבא</a>');
-            }
+            if (tempIndex == 0) {
+                $('#backPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '">הקודם</a>');
+                if (data.recipes[nextPage] != null) {
+                    $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '">הבא</a>');
+                } else {
+                    $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '">הבא</a>');
+                }
 
-        }else {
-            $('#backPage').html('<a href="recipePage.html?recipeNum=' + (backPage) + '">הקודם</a>');
+            } else {
+                $('#backPage').html('<a href="recipePage.html?recipeNum=' + (backPage) + '">הקודם</a>');
 
-            if (data.recipes[nextPage] != null) {
-                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '">הבא</a>');
-            }else{
-                $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '">הבא</a>');
+                if (data.recipes[nextPage] != null) {
+                    $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (nextPage) + '">הבא</a>');
+                } else {
+                    $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (tempIndex) + '">הבא</a>');
+                }
             }
         }
-
     });
 });
