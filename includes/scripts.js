@@ -35,6 +35,7 @@ $(document).ready(function(){
             }
         if (indexInJson == 0){
             $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (indexInJson + 1) + '>הבא</a>');
+            $('#backPage').html('<a href="recipePage.html?recipeNum=' + (indexInJson) + '">הקודם</a>');
         }else {
             $('#backPage').html('<a href="recipePage.html?recipeNum=' + (indexInJson - 1) + '">הקודם</a>');
             $('#nextPage').html('<a href="recipePage.html?recipeNum=' + (indexInJson + 1) + '">הבא</a>');
