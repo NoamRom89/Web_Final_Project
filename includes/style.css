@@ -1698,6 +1698,7 @@ footer {
         top: 29px;
         right: 30px;
         width: 544px;
+        /*height: 1007px;*/
         border-top: 2px solid #87746a;
     }
 
@@ -2304,8 +2305,9 @@ footer {
     }
 
     #articleContentStyle1Img {
-        margin-top: 20px;
-        margin-right: 6px;
+        position: absolute;
+        top: 20px;
+        right: 6px;
     }
 
     #articleContentStyle2 {
@@ -2346,7 +2348,7 @@ footer {
     #articleContentStyle3 p {
         position: absolute;
         right: 125px;
-        top: 16px;
+        top: 15px;
         direction: rtl;
         font-family: ariel, Verdana, sans-serif;
         font-size: 12px;
@@ -2355,8 +2357,8 @@ footer {
     }
 
     #articleContentStyle3Img {
+        margin-top: 18px;
         margin-right: 6px;
-        margin-top: 19px;
     }
 
     .pGreen {
