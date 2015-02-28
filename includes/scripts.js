@@ -43,6 +43,13 @@ $(document).ready(function(){
                      indexForaside++;
 
                  }
+            // all the rest of the recipes
+
+            $('#ulInnerRecipesTermo').append('<li><a href="#">דואט קנולי</a></li>')
+            .append('<li><a href="#">גלילי ביסקוויט שוקולוד</a></li>')
+                .append('<li><a href="#">בצק שמרים ללא גלוטן</a></li>')
+                    .append('<li><a href="#">חזה עוף במרינדה</a></li>');
+            
 
             //Dynamic data for Recipes - Only title,img,description and recipes
 
