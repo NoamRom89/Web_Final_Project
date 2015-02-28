@@ -22,6 +22,23 @@ $(document).ready(function(){
         if (articleTitleIndex != null) {        // its a article page
             //Dynamic data for Vaccum cooking article - Only title
             $('#vaccumAarticleStyle h2').text(data.systemArticles.articleTitles[articleTitleIndex].title);
+
+            // create article aside menu- dynamic
+            var indexForArticle = 0;
+            while (data.systemArticles.articleTitles[indexForArticle] != null){
+                if(indexForArticle == articleTitleIndex){
+                    $('#asideNavCenter1').append(
+                        '<li class="currentArticleGreen"> <a href="articlePage.html?articleNum=' + indexForArticle + '">' + data.systemArticles.articleTitles[indexForArticle].title + '</a></li>'
+                    );
+                }else {
+                    $('#asideNavCenter1').append(
+                        '<li> <a href="articlePage.html?articleNum=' + indexForArticle + '">' + data.systemArticles.articleTitles[indexForArticle].title + '</a></li>'
+                    );
+                }
+                indexForArticle ++;
+            }
+
+
         }else {         // its a recipe page
             var i = 0;
             var tempIndex = parseInt(indexInJson);
