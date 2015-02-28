@@ -49,7 +49,7 @@ $(document).ready(function(){
             .append('<li><a href="#">גלילי ביסקוויט שוקולוד</a></li>')
                 .append('<li><a href="#">בצק שמרים ללא גלוטן</a></li>')
                     .append('<li><a href="#">חזה עוף במרינדה</a></li>');
-            
+
 
             //Dynamic data for Recipes - Only title,img,description and recipes
 
