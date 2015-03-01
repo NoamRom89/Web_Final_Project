@@ -702,10 +702,7 @@ footer {
         position: relative;
         margin-top: 1px;
         margin: 1px 0 5px 116px;
-        /* top: 108px; */
-        /* left: 116px; */
-        /* width: 573px; */
-        /* height: 39px; */
+        width: 573px;
         border-top: 1px dotted #c3b9b4;
         font-family: ariel, Verdana, sans-serif;
         color: #87746a;
