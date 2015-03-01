@@ -1702,7 +1702,7 @@ footer {
         border-top: 2px solid #87746a;
     }
 
-    .contentArticle > h1:first-child {
+    .contentArticle > h2:first-child {
         direction: rtl;
         width: 529px;
         height: 20px;
