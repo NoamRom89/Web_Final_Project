@@ -745,11 +745,13 @@ footer {
     /*marquee style*/
 
     #marqueeDisplay{
+        position:relative;
         background-color: #00b25a;
         height: 22px;
         width: 534px;
+        margin-top: 4px;
         overflow:hidden;
-        position:relative;
+
     }
     #marqueeText{
         direction: rtl;
