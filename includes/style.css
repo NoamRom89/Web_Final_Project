@@ -142,6 +142,10 @@ header,main,footer,aside,nav,article,section{
         font-size: 1.083em;
     }
 
+    .topNav ul li:first-child {
+        border-left: none;
+    }
+
     .topNav a:link, .topNav a:visited {
         color: #87746a;
         text-decoration: none;
@@ -224,12 +228,15 @@ header,main,footer,aside,nav,article,section{
     .sub-menu li a:hover, .sub-menu .current-item a {
         background:#ffffff;
     }
+
     #topNav{
         display:none;
     }
+
     #contentWorld{
         display: none;
     }
+
     /*-------------------------------------------*/
     /*Main Page Slide Photo*/
     #slideshow {
@@ -277,19 +284,20 @@ header,main,footer,aside,nav,article,section{
         float: left;
     }
 
-
     .mask {
         float: left;
         width: 65.5%;
         overflow: hidden;
     }
+
     .maskRecipe {
              direction: ltr;
              float: left;
              width:496px;
              height: 324px;
              overflow: hidden;
-         }
+    }
+
     .imagesRecipe img {
         width:503px;
     }
@@ -301,10 +309,10 @@ header,main,footer,aside,nav,article,section{
         height: 324px;
         overflow: hidden;
     }
+
     .imagesFienHome img {
         width:503px;
     }
-
 
     .images img {
         width: 341px;
@@ -388,12 +396,15 @@ header,main,footer,aside,nav,article,section{
     .control img{
         cursor:pointer;
     }
+
     .prev {
         cursor:pointer;
     }
+
     .next {
         cursor:pointer;
     }
+
     /*-------------------------------------------*/
 /************************ article style *************************/
     .h3contentWorld {
@@ -404,11 +415,13 @@ header,main,footer,aside,nav,article,section{
         padding-top: 8px;
         border-top: 2px solid #87746a;
     }
+
     #bigArticle {
         margin-top: 15px;
         width: 80%;
         margin-left: 10%;
     }
+
     .endArticle{
         margin-bottom: 80px;
     }
@@ -496,6 +509,7 @@ header,main,footer,aside,nav,article,section{
         border: 2px solid #87746a;
         border-radius: 5px;
     }
+
     .systemArticleCotert {
         direction: rtl;
         font-family: ariel, Verdana, sans-serif;
@@ -505,9 +519,11 @@ header,main,footer,aside,nav,article,section{
         margin-top: -33%;
         margin-right: 50%;
     }
+
     .systemArticle a:link, .systemArticle a:visited{
         text-decoration: none;
     }
+
     .systemArticleDate {
         direction: rtl;
         font-family: ariel, Verdana, sans-serif;
@@ -536,86 +552,83 @@ header,main,footer,aside,nav,article,section{
     #whatsnew{
         direction: rtl;
     }
+
     /*********************************************************************/
 
-/*****  Footer Style    *****/
+    /*****  Footer Style    *****/
 
-footer {
-    width: 100%;
-    height: 12%;
-    background-color: #87746a;
+    footer {
+        width: 100%;
+        height: 12%;
+        background-color: #87746a;
+    }
+    #footerSection {
+        position: relative;
+        height: 17px;
+        padding-top: 14px;
+        padding-bottom: 5px;
+    }
+
+    #footerSharing {
+        display: none;
+    }
+    #footerSharingRE {
+        text-align: center;
+    }
+
+    #footerSharing a:link, #footerSharing a:visited {
+        text-decoration: none;
+    }
+
+    .footerSharingImg {
+        padding-right: 3px;
+    }
+
+    .paddingleft {
+        padding-left: 11px;
+    }
+
+    #footerCopyrights {
+        display: none;
+    }
+
+    #footerNav {
+        display: none;
+
+    }
+
+    #footerNav a:link, #footerNav a:visited {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    #footerNav a:hover {
+        color: #473a33;
+    }
+
+    #footerNav ul {
+        list-style-type: none;
+        margin-top: 6px;
+
+    }
+
+    #footerNav ul li {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        float: left;
+
+    }
+
+    .footerNavLine {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    .footerTheMarkerLogo{
+        display: none;
+    }
+/*********************  End Of Responsive Design    *******************************/
 }
-#footerSection {
-    position: relative;
-    height: 17px;
-    padding-top: 14px;
-    padding-bottom: 5px;
-}
-
-#footerSharing {
-    display: none;
-}
-#footerSharingRE {
-    text-align: center;
-}
-
-#footerSharing a:link, #footerSharing a:visited {
-    text-decoration: none;
-}
-
-.footerSharingImg {
-    padding-right: 3px;
-}
-
-.paddingleft {
-    padding-left: 11px;
-}
-
-#footerCopyrights {
-    display: none;
-}
-
-#footerNav {
-    display: none;
-
-}
-
-#footerNav a:link, #footerNav a:visited {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-#footerNav a:hover {
-    color: #473a33;
-}
-
-#footerNav ul {
-    list-style-type: none;
-    margin-top: 6px;
-
-}
-
-#footerNav ul li {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    float: left;
-
-}
-
-.footerNavLine {
-    padding-right: 8px;
-    padding-left: 8px;
-}
-
-.footerTheMarkerLogo{
-    display: none;
-}
-/****************************************************/
-
-}
-
-
-
 
 @media all and (min-width: 641px)
 {
@@ -704,31 +717,39 @@ footer {
         color: #87746a;
         font-size: 13px;
     }
+
     .topNav ul {
         list-style-type: none;
         margin-top: 13px;
     }
+
     .topNav ul li {
         padding: 3px 6px 3px 6px;
         float: left;
         border-left: 1px dotted #c3b9b4;
     }
+
     .topNav ul li:first-child {
         border-left: none;
     }
+
     .topNav a:link, .topNav a:visited {
         color: #87746a;
         text-decoration: none;
     }
+
     .topNav a:hover {
         color: #1fb25a;
     }
+
     .topNav a:active {
         color: #42ca44;
     }
+
     #orangeLi {
         color: #ffae3b;
     }
+
     /*******************************************************************/
     /*marquee style*/
 
@@ -741,6 +762,7 @@ footer {
         overflow:hidden;
 
     }
+
     #marqueeText{
         direction: rtl;
         position: absolute;
@@ -752,9 +774,8 @@ footer {
         font-size: 13px;
     }
 
+    /*-------------------------------------------*/
 
-    /*-------------------------------------------*/
-    /*-------------------------------------------*/
     /*****          Nav of main style           *****/
     .mainNav {
         direction: rtl;
@@ -824,13 +845,13 @@ footer {
     }
 
     /*-------------------------------------------*/
+
     /*****          Main style          *****/
     main {
         position: absolute;
         left: 116px;
         top: 147px;
         width: 573px;
-        /*height: 1500px;*/
         background-repeat: no-repeat;
     }
 
@@ -859,8 +880,6 @@ footer {
         height: 508px;
     }
 
-
-
     #slideshow {
         position: absolute;
         top: 45px;
@@ -875,7 +894,6 @@ footer {
         width: 527px;
         border: 2px solid #ffffff;
         border-radius: 5px;
-
     }
 
     #slideshowtext {
@@ -898,7 +916,6 @@ footer {
         color: #ffffff;
         font-size: 11px;
         padding: 16px 21px 21px 20px;
-
     }
 
     #slideshowimg {
@@ -910,7 +927,6 @@ footer {
         position: absolute;
         top: 340px;
         width: 307px;
-
     }
 
     #youtube {
@@ -926,7 +942,6 @@ footer {
         margin-left: 14px;
         border: 2px solid #87746a;
         border-radius: 5px;
-
     }
 
     .articleCotert {
@@ -937,7 +952,6 @@ footer {
         color: #87746a;
         padding-top: 16px;
         margin-right: 11px;
-
     }
 
     .articleDate {
@@ -1006,7 +1020,6 @@ footer {
         margin-top: -100px;
         padding-left: 25px;
         margin-right: 133px;
-
     }
 
     .systemArticleDate {
@@ -1038,7 +1051,6 @@ footer {
         top: 340px;
         left: 343px;
         width: 192px;
-
     }
 
     #contentPic1 {
@@ -1146,7 +1158,6 @@ footer {
         margin-right: 10px;
         font-size: 13px;
         border-top: 2px solid #87746a;
-
     }
 
     #asideNavCenter a:link, #asideNavCenter a:visited {
@@ -1255,7 +1266,6 @@ footer {
         border-top: 2px solid #87746a;
         font-family: ariel, Verdana, sans-serif;
         color: #87746a;
-
     }
 
     #asideContact p {
@@ -1313,6 +1323,7 @@ footer {
     }
 
     /*-------------------------------------------*/
+
     /*Main Page Slide Photo*/
     .mask {
         float: left;
@@ -1354,17 +1365,15 @@ footer {
             top: 225px;
             left: 80px;
             list-style-type: none;
-        }
+    }
 
     ul.triggers li {
-
         float: left;
         margin: 0 5px;
         font: bold 28px arial;
         cursor: pointer;
         color: #DBDBDB;
         padding: 10px;
-
     }
 
     ul.recipeTrigger li.selected {
@@ -1378,14 +1387,12 @@ footer {
     }
 
     ul.recipeTrigger li {
-
         float: left;
         margin: 0 5px;
         font: bold 28px arial;
         cursor: pointer;
         color: #DBDBDB;
         padding: 10px;
-
     }
 
     ul.recipeTrigger li.selected {
@@ -1415,14 +1422,12 @@ footer {
     }
 
     ul.fienHomeTrigger li {
-
         float: left;
         margin: 0 5px;
         font: bold 28px arial;
         cursor: pointer;
         color: #DBDBDB;
         padding: 10px;
-
     }
 
     .control img{
@@ -1436,6 +1441,7 @@ footer {
     }
 
     /*-------------------------------------------*/
+
     /*aside style*/
     aside {
         position: absolute;
@@ -1447,7 +1453,6 @@ footer {
         padding-left: 3px;
         padding-right: 6px;
         margin-left: 1px;
-
     }
 
     #contentAside {
@@ -1511,7 +1516,6 @@ footer {
     #asideNavTop > ul {
         list-style-type: none;
         padding-top: 3px;
-
     }
 
     #asideNavTop > ul > li {
@@ -1661,6 +1665,7 @@ footer {
     }
 
     /*-------------------------------------------*/
+
     /*****          FienCook aside style            *****/
     #asideFiencook {
         position: absolute;
@@ -1672,10 +1677,10 @@ footer {
         padding-left: 3px;
         padding-right: 6px;
         margin-left: 1px;
-
     }
 
     /*-------------------------------------------*/
+
     /*****          Content article style           *****/
     .contentArticle {
         position: absolute;
@@ -1683,7 +1688,6 @@ footer {
         top: 29px;
         right: 30px;
         width: 544px;
-        /*height: 1007px;*/
         border-top: 2px solid #87746a;
     }
 
@@ -1708,7 +1712,6 @@ footer {
         position: absolute;
         top: 22px;
         padding-right: 15px;
-
     }
 
     #vaccumAarticleStyle > h1 {
@@ -1718,7 +1721,6 @@ footer {
         font-weight: bold;
         font-size: 19px;
         color: #1fb25a;
-
     }
 
     #vaccumAarticleStyleH4 {
@@ -1814,6 +1816,7 @@ footer {
     }
 
     /*******************************************************************************/
+
     /******         Recipes Page Style         ********/
     #orangeRecipesLogo {
         color: #f26631;
@@ -1895,6 +1898,7 @@ footer {
     }
 
     /*********************************************************************************/
+
     /*****      Fien Cook Page    ********/
     #greenBoldFienCook {
         color: #1fb25a;
@@ -1951,10 +1955,6 @@ footer {
         margin-left: 16px;
     }
 
-    .fiencookArticleSlideshowImg {
-
-    }
-
     #fiencookArticleSlideshow p {
         direction: rtl;
         color: #87746a;
@@ -1975,9 +1975,8 @@ footer {
         margin-top: 15px;
     }
 
-
-
     /*********************************************************************************/
+
     /******         Conatct Form Page style     ******/
     #topNavCFormHover a:hover {
         color: #ffae3b;
@@ -2079,7 +2078,6 @@ footer {
         padding-left: 3px;
         padding-right: 6px;
         margin-left: 1px;
-
     }
 
     #asideNavTopCFormHover a:hover {
@@ -2091,6 +2089,7 @@ footer {
     }
 
     /*********************************************************************************/
+
     /*****      Vodka Watermellon Page    ********/
     #topNavVWHover a:hover {
         color: #f26631;
@@ -2259,7 +2258,6 @@ footer {
         margin-top: 2px !important;
     }
 
-    /*********************************************************************************/
     #articleContentStyle1 {
         width: 524px;
         height: 124px;
@@ -2461,24 +2459,23 @@ footer {
     #footerNav ul {
         list-style-type: none;
         margin-top: 6px;
-
     }
 
     #footerNav ul li {
         padding-top: 3px;
         padding-bottom: 3px;
         float: left;
-
     }
 
     .footerNavLine {
         padding-right: 8px;
         padding-left: 8px;
     }
+
     #footerSharingRE {
         display: none;
     }
-    /*-------------------------------------------*/
+
     .arrow {
         padding-right: 5px;
     }
