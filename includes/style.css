@@ -88,6 +88,10 @@ header,main,footer,aside,nav,article,section{
         background-image: url("../images/logo.png");
         background-repeat: no-repeat;
     }
+    #appMenuImg{
+        height: 40px;
+        width: 40px;
+    }
     /*-------------------------------------------*/
 
     /*****          Marquee            *****/
@@ -688,10 +692,7 @@ footer {
     #appMenu{
         display: none;
     }
-    #appMenuImg{
-        height: 40px;
-        width: 40px;
-    }
+
     /*-------------------------------------------*/
     /*****          Top Nav style           *****/
     .topNav {
