@@ -688,6 +688,10 @@ footer {
     #appMenu{
         display: none;
     }
+    #appMenuImg{
+        height: 40px;
+        width: 40px;
+    }
     /*-------------------------------------------*/
     /*****          Top Nav style           *****/
     .topNav {
