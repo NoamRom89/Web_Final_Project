@@ -117,7 +117,7 @@ header,main,footer,aside,nav,article,section{
     #appMenu{
         direction: rtl;
         position: absolute;
-        right: 10%;
+        right: 3%;
         top: 1.5%;
     }
     #appMenuBorderNone , #appMenuBorderNone li{
@@ -496,7 +496,6 @@ header,main,footer,aside,nav,article,section{
         border: 2px solid #87746a;
         border-radius: 5px;
     }
-
     .systemArticleCotert {
         direction: rtl;
         font-family: ariel, Verdana, sans-serif;
@@ -505,9 +504,10 @@ header,main,footer,aside,nav,article,section{
         color: #87746a;
         margin-top: -33%;
         margin-right: 50%;
-
     }
-
+    .systemArticle a:link, .systemArticle a:visited{
+        text-decoration: none;
+    }
     .systemArticleDate {
         direction: rtl;
         font-family: ariel, Verdana, sans-serif;
@@ -784,7 +784,6 @@ footer {
         font-size: 11px;
         float: right;
         margin: 1px 3px 3px 1px;
-        /*margin-left: 2px;*/
         font-family: ariel, Verdana, sans-serif;
     }
 
@@ -816,8 +815,7 @@ footer {
     #contactNav ul li {
         font-size: 11px;
         float: right;
-        margin: 1px 1px 3px 1px;
-        /*margin-left: 2px;*/
+        margin: 1px 3px 3px 1px;
         font-family: ariel, Verdana, sans-serif;
     }
 
@@ -986,6 +984,10 @@ footer {
 
     .systemArticle, #simpleRecipe, #contentWorld {
         direction: rtl;
+    }
+
+    .systemArticle a:link, .systemArticle a:visited{
+        text-decoration: none;
     }
 
     .systemArticlePic {
