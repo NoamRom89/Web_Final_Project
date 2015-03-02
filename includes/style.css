@@ -1406,6 +1406,7 @@ header,main,footer,aside,nav,article,section{
         height: 324px;
         overflow: hidden;
         margin-left: 39px;
+        margin-top: -8px;
     }
     .imagesFienHome img {
         width:503px;
@@ -1427,7 +1428,7 @@ header,main,footer,aside,nav,article,section{
         font: bold 28px arial;
         cursor: pointer;
         color: #DBDBDB;
-        padding: 10px;
+        padding: 10px 0 0 10px;
     }
 
     .control img{
