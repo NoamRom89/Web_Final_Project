@@ -88,10 +88,7 @@ header,main,footer,aside,nav,article,section{
         background-image: url("../images/logo.png");
         background-repeat: no-repeat;
     }
-    #appMenuImg{
-        height: 40px;
-        width: 40px;
-    }
+
     /*-------------------------------------------*/
 
     /*****          Marquee            *****/
@@ -121,6 +118,7 @@ header,main,footer,aside,nav,article,section{
         direction: rtl;
         position: absolute;
         right: 10%;
+        top: 1.5%;
     }
     #appMenuBorderNone , #appMenuBorderNone li{
         border:none;
